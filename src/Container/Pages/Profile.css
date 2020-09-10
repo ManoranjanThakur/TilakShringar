@@ -14,3 +14,9 @@
     height: 28px;
     display:flex;
 }
+.myProfile{
+    width: 108px;
+    height: 28px;
+    font: normal normal normal 20px/30px Poppins;
+    color: #4D4D4D;
+}

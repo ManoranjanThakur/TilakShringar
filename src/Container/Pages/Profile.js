@@ -15,7 +15,7 @@ function Profile(){
             <h2 className='headlinee'>my profile...</h2>
             <div className="profileBox"> 
             <div className="boxNav">
-               <h6>MY PROFILE</h6>
+               <h6 className="myProfile" >MY PROFILE</h6>
             </div>
             </div>
             <Footer/>
