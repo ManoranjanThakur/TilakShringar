@@ -57,7 +57,7 @@
     border-bottom-left-radius: 1.318vw;
     border-bottom-right-radius: 1.318vw;
 }
-h1{
+.contentt h1{
     font: normal normal bold 1.098vw/1.391vw poppins;
     text-align:center;
 }
@@ -69,7 +69,7 @@ h1{
     text-align:center;
     
   }
-p{
+.contentt p{
     text-align:left;
     color: #ADADAD;;
     font: normal normal normal 0.952vw/1.171vw poppins;
