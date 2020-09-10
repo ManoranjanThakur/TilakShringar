@@ -16,6 +16,7 @@ function Profile(){
             <div className="profileBox"> 
             <div className="boxNav">
                <h6 className="myProfile" >MY PROFILE</h6>
+               <h6 className="myOrders" >MY ORDERS</h6>
             </div>
             </div>
             <Footer/>

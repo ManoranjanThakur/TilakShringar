@@ -19,4 +19,13 @@
     height: 28px;
     font: normal normal normal 20px/30px Poppins;
     color: #4D4D4D;
+    margin-top:0px
+}
+.myOrders{
+    width: 110px;
+    height: 28px;
+    font: normal normal normal 20px/30px Poppins;
+    color: #4D4D4D;
+    margin-top:0px;
+    margin-left: 231px;
 }
