@@ -1,0 +1,243 @@
+.shop{
+    margin-top: -88.501vw;
+}
+.headlinee{
+    margin-top:10.5vw;
+    margin-left:21.889vw;
+    font: normal normal normal 2.562vw/3.880vw Poppins;
+    color:#4D4D4D;
+}
+.cardsl1{
+    display:flex;
+    margin-left:21.889vw;
+    margin-top:2.647vw;
+}
+.card1{
+    display:flex;
+    width:18.375vw;
+    height:24.524vw;
+    background-color: #8D8D8D;
+}
+.card1:hover{
+    background-color: lightseagreen;    
+}
+.card1 span{
+    padding: 0.3vw;
+    text-align: center;
+    margin-top:21.742vw;
+    margin-left:4.466vw;
+    width:9.810vw;
+    height:1.903vw;
+    font: normal normal normal 0.805vw/1.245vw Poppins;
+    color:white;
+    background-color:#4D4D4D;
+}
+.card1:hover #text1{
+    padding: 0.5vw;
+    text-align: center;
+    margin-top:16.742vw;
+    margin-left:0.04vw;
+    width:18.26vw;
+    height:2.903vw;
+    font: normal normal bold 1.06vw/1.545vw Poppins;
+    color:#4D4D4D;
+    background-color:white;
+}
+.card2{
+    display:flex;
+    margin-left: 4.392vw;
+    width:18.375vw;
+    height:24.524vw;
+    background-color: #8D8D8D;
+}
+.card2:hover{
+    background-color: lightseagreen;    
+}
+.card2 span{
+    padding: 0.3vw;
+    text-align: center;
+    margin-top:21.742vw;
+    margin-left:4.466vw;
+    width:9.810vw;
+    height:1.903vw;
+    font: normal normal normal 0.805vw/1.245vw Poppins;
+    color:white;
+    background-color:#4D4D4D;
+}
+.card2:hover #text2{
+    padding: 0.5vw;
+    text-align: center;
+    margin-top:16.742vw;
+    margin-left:0.04vw;
+    width:18.26vw;
+    height:2.903vw;
+    font: normal normal bold 1.06vw/1.545vw Poppins;
+    color:#4D4D4D;
+    background-color:white;
+}
+.card3{
+    display:flex;
+    margin-left: 4.392vw;
+    width:18.375vw;
+    height:24.524vw;
+    background-color: #8D8D8D;
+}
+.card3:hover{
+    background-color: lightseagreen;    
+}
+.card3 span{
+    padding: 0.3vw;
+    text-align: center;
+    margin-top:21.742vw;
+    margin-left:4.466vw;
+    width:9.810vw;
+    height:1.903vw;
+    font: normal normal normal 0.805vw/1.245vw Poppins;
+    color:white;
+    background-color:#4D4D4D;
+}
+.card3:hover #text3{
+    padding: 0.5vw;
+    text-align: center;
+    margin-top:16.742vw;
+    margin-left:0.04vw;
+    width:18.26vw;
+    height:2.903vw;
+    font: normal normal bold 1.06vw/1.545vw Poppins;
+    color:#4D4D4D;
+    background-color:white;
+}
+.cardsl2{
+    display:flex;
+    margin-left:21.889vw;
+    margin-top:4.466vw;
+}
+.card4{
+    display:flex;
+    width:18.375vw;
+    height:24.524vw;
+    background-color: #8D8D8D;
+}
+.card4:hover{
+    background-color: lightseagreen;    
+}
+.card4 span{
+    padding: 0.3vw;
+    text-align: center;
+    margin-top:21.742vw;
+    margin-left:4.466vw;
+    width:9.810vw;
+    height:1.903vw;
+    font: normal normal normal 0.805vw/1.245vw Poppins;
+    color:white;
+    background-color:#4D4D4D;
+}
+.card4:hover #text4{
+    padding: 0.5vw;
+    text-align: center;
+    margin-top:16.742vw;
+    margin-left:0.04vw;
+    width:18.26vw;
+    height:2.903vw;
+    font: normal normal bold 1.06vw/1.545vw Poppins;
+    color:#4D4D4D;
+    background-color:white;
+}
+.card5{
+    display:flex;
+    margin-left: 4.392vw;
+    width:18.375vw;
+    height:24.524vw;
+    background-color: #8D8D8D;
+}
+.card5:hover{
+    background-color: lightseagreen;    
+}
+.card5 span{
+    padding: 0.3vw;
+    text-align: center;
+    margin-top:21.742vw;
+    margin-left:4.466vw;
+    width:9.810vw;
+    height:1.903vw;
+    font: normal normal normal 0.805vw/1.245vw Poppins;
+    color:white;
+    background-color:#4D4D4D;
+}
+.card5:hover #text5{
+    padding: 0.5vw;
+    text-align: center;
+    margin-top:16.742vw;
+    margin-left:0.04vw;
+    width:18.26vw;
+    height:2.903vw;
+    font: normal normal bold 1.06vw/1.545vw Poppins;
+    color:#4D4D4D;
+    background-color:white;
+}
+.card6{
+    display:flex;
+    margin-left: 4.392vw;
+    width:18.375vw;
+    height:24.524vw;
+    background-color: #8D8D8D;
+}
+.card6:hover{
+    background-color: lightseagreen;    
+}
+.card6 span{
+    padding: 0.3vw;
+    text-align: center;
+    margin-top:21.742vw;
+    margin-left:4.466vw;
+    width:9.810vw;
+    height:1.903vw;
+    font: normal normal normal 0.805vw/1.245vw Poppins;
+    color:white;
+    background-color:#4D4D4D;
+}
+.card6:hover #text6{
+    padding: 0.5vw;
+    text-align: center;
+    margin-top:16.742vw;
+    margin-left:0.04vw;
+    width:18.26vw;
+    height:2.903vw;
+    font: normal normal bold 1.06vw/1.545vw Poppins;
+    color:#4D4D4D;
+    background-color:white;
+}
+.abqucard{
+    display:flex;
+    margin-top:7.394vw;
+    height:21.230vw;
+    width:92.387vw;
+}
+.abcard{
+    margin-left:35.944vw;
+    display:flex;
+    height:21.230vw;
+    width:21.157vw;
+    border: 0.146vw solid #CDCDCD;
+
+}
+.abcard span{
+    color:#4D4D4D;
+    margin-top: 8.858vw;
+    margin-left: 6.28vw;
+    font:normal normal normal 2.489vw/3.734vw Poppins;
+}
+.qucard{
+    display:flex;
+    margin-left:2.635vw;
+    height:21.230vw;
+    width:21.157vw;
+    border: 0.146vw solid #CDCDCD;
+
+}
+.qucard span{
+    color:#4D4D4D;
+    margin-top: 8.858vw;
+    margin-left: 6.015vw;
+    font:normal normal normal 2.489vw/3.734vw Poppins;
+}

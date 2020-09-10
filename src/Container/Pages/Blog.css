@@ -1,0 +1,90 @@
+.containerr{
+    display:grid;
+    margin-top:1.464vw;
+    margin-left:21.083vw;
+}
+.containerr1{
+    display:flex;
+    margin-top:1.464vw;
+    margin-left:0vw;
+}
+.containerr2{
+    display:flex;
+    margin-top:1.464vw;
+    margin-left:0vw;
+}
+.carrd{
+    margin-left:1.464vw;
+    position:relative;
+    width:22.255vw;
+    height:32.650vw;
+    background:white;
+    box-shadow: -0.732vw -0.732vw 1.098vw rgba(255, 255, 255, 0.5),
+    0.732vw 0.732vw 1.098vw rgba(0, 0, 0, 0.25);
+    border-radius: 0.732vw;
+    transition: 0.5s ease-out;
+    
+}
+.carrd .imagee{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.carrd .imagee img{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:80%;
+    display:block;
+    border-top-left-radius: 1.318vw;
+    border-top-right-radius: 1.318vw;
+    transition:0.5s;
+}
+.carrd .contentt{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:6.589vw;
+    box-sizing:border-box;
+    transition: 0.5s cubic-bezier(.22, .68, 0, 1, 1.71);
+    overflow:hidden;
+    padding:0.878vw;
+    background: white;
+    border-bottom-left-radius: 1.318vw;
+    border-bottom-right-radius: 1.318vw;
+}
+h1{
+    font: normal normal bold 1.098vw/1.391vw poppins;
+    text-align:center;
+}
+.carrd:hover .contentt {
+    width:100%;
+    height:100%;
+    left:0;
+    bottom:0;
+    text-align:center;
+    
+  }
+p{
+    text-align:left;
+    color: #ADADAD;;
+    font: normal normal normal 0.952vw/1.171vw poppins;
+    padding:0.732vw 1.464vw;
+}
+  
+button {
+    font: normal normal bold 0.952vw/1.171vw poppins;
+    text-decoration: underline;
+    outline-color: white;
+    border:none;
+    background: none;
+    border-radius:1.318vw;
+    padding:0.512vw;
+    opacity:0.6;
+}
+
+

@@ -1,0 +1,16 @@
+.profileBox {
+    border: 1px solid #707070;
+    width: 920px;
+    height: 617px;
+    margin-left: 307px;
+    display: grid;
+}
+
+.boxNav {
+    border: 1px solid #707070;
+    margin-top: 34px;
+    margin-left: 69px;
+    width: 587px;
+    height: 28px;
+    display:flex;
+}

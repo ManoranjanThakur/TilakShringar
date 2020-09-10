@@ -1,0 +1,118 @@
+.breadcrumbs{
+    margin-left:21.889vw;
+    border:0.146vw solid red;
+    margin-top:2.928vw;
+    width:51.245vw;
+    height:1.537vw;
+}
+.headlineee{
+    margin-left:21.889vw;
+    margin-top:2.928vw;
+    font: normal normal normal 2.562vw/3.880vw Poppins;
+}
+.productss{
+    display:flex;
+    margin-left:21.889vw;
+    margin-top:2.928vw;
+    width:67.936vw;
+    height:39.019vw;
+}
+.productpic{
+    display:grid;
+    width:31.625vw;
+    height:39.019vw;
+
+}
+.ppic{
+    width:31.625vw;
+    height:29.795vw;
+    background-color: #6D6D6D;
+}
+.productdes{
+    display:grid;
+    margin-left:5.857vw;
+    width:30.454vw;
+    height:3.221vw;
+    
+}
+.productdes p{
+    color:#2D2D2D;
+    width: 24.524vw;
+    height:3.221vw;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+.cost{
+    color:#2D2D2D;
+    margin-top:2.928vw;
+    width: 24.524vw;
+    font: normal normal normal 1.757vw/2.562vw Poppins;
+}
+.tags{
+    color:#2D2D2D;
+    margin-top:2.928vw;
+    width: 24.524vw;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+.productdes p2{
+    color:#ADADAD;
+    width: 24.524vw;
+    font: normal normal normal 0.878vw/1.464vw Poppins;
+}
+.descriptions{
+    margin-top:2.928vw;
+    width: 30.381vw;
+    height:21.376vw;
+    
+}
+.descriptions span{
+color:#2D2D2D;
+font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+.descriptions p{
+    color:#ADADAD;
+    font: normal normal normal 0.878vw/1.464vw Poppins;
+}
+.icon2 {
+    
+    margin-top: -4.343vw;
+    margin-left: 27.009vw;
+
+    width: 2.343vw;
+    height: 2.343vw;
+    background: #CDCDCD 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#iconn2{
+        margin-top: 0.293vw;
+        margin-left: 0.366vw;
+        width: 1.611vw;
+        height: 1.684vw;
+        color: #8D8D8D 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+   
+}
+
+#iconn2:hover{
+    color:#E54725;
+    opacity:1;
+}
+.icon1{
+    margin-top: -0.634vw;
+    margin-left: 26.937vw;
+    width: 2.343vw;
+    height: 2.343vw;
+    background: #CDCDCD 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#iconn1{
+    margin-top: 0.293vw;
+    margin-left: 0.366vw;
+    width: 1.611vw;
+    height: 1.684vw;
+    color: #8D8D8D 0% 0% no-repeat padding-box;
+    opacity: 0.4;
+}
+#iconn1:hover{
+    color:#4D8FAC;
+    opacity:2;
+}

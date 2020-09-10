@@ -1,0 +1,105 @@
+.headlineeee{
+    margin-top:-74.6vw;
+    margin-left:21.889vw;
+    font: normal normal normal 2.562vw/3.880vw Poppins;
+    color:#4D4D4D;
+}
+.details{
+    display:flex;
+    margin-top:1.684vw;
+    margin-left: 22.401vw;
+    height: 35.286vw;
+    width:77.526vw;
+}
+.userdetails{
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+    height: 35.286vw;
+    width:34.846vw;
+}
+.userdetails p{
+    margin-bottom:3.514vw;
+    
+}
+.userdetails hr{
+    margin-left:2.379vw;
+    color: #8D8D8D;
+}
+.userdetails input{
+    margin:6px;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+    color: #8D8D8D;
+    margin-left:2.745vw;
+    border:none;
+    outline-color: white;
+    width:32vw;
+}
+.send{
+    border:none;
+    margin-top:4.392vw;
+    margin-left:21.376vw;
+    width: 13.470vw;
+    height: 3.880vw;
+    background-color: #CDCDCD;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+    color: #4D4D4D;
+}
+.emailadd{
+    width:15.447vw;
+    height:8.272vw;
+    margin-top:8.419vw;
+    margin-left:16.911vw;
+}
+.emailadd p{
+    margin-bottom:0vw;
+    color:#2D2D2D;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+.emailadd span{
+    margin-top:0vw;
+    margin-left:1.611vw;
+    color: #8D8D8D;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+.quend{
+    margin-top:7.321vw;
+    margin-left:40.849vw;
+    width:24.817vw;
+}
+
+
+.cardss{
+    display:flex;
+    margin-top:7.321vw;
+    margin-left:29.283vw;
+    height:21.230vw;
+    width:92.387vw;
+}
+.rcardd1{
+    display:flex;
+    margin-left:0vw;
+    height:21.230vw;
+    width:21.157vw;
+    border: 0.146vw solid #CDCDCD;
+
+}
+.rcardd1 span{
+    color:#4D4D4D;
+    margin-top: 8.858vw;
+    margin-left: 7.247vw;
+    font:normal normal normal 2.489vw/3.734vw Poppins;
+}
+
+.rcardd3{
+    margin-left:2.562vw;
+    display:flex;
+    height:21.230vw;
+    width:21.157vw;
+    border: 0.146vw solid #CDCDCD;
+
+}
+.rcardd3 span{
+    color:#4D4D4D;
+    margin-top: 8.858vw;
+    margin-left: 3.014vw;
+    font:normal normal normal 2.489vw/3.734vw Poppins;
+}

@@ -1,0 +1,153 @@
+.headlinee {
+    margin-top: 10.5vw;
+    margin-left: 21.889vw;
+    font: normal normal normal 2.562vw/3.880vw Poppins;
+    color: #4D4D4D;
+}
+.producttt1{
+    margin-top:3.660vw;
+    display:flex;
+    width:51.143vw;
+    height:14.255vw;
+    margin-left:23.704vw;
+}
+.producttt1 span{
+    font: normal normal bold 1.464vw/2.196vw Poppins;
+    color: #2D2D2D;
+}
+.imgblock{
+    margin-left:0.205vw;
+    width:18.658vw;
+    height:14.240vw;
+    background: #6D6D6D 0% 0% no-repeat padding-box;
+    border: 0.073vw solid #CDCDCD;
+}
+.prodescription{
+    margin-left:4.675vw;
+    height:14.255vw;
+    width:28.542vw;
+}
+.nameandwishbox{
+    height:3.221vw;
+    display: flex;
+}
+.nameandwishbox p{
+    color: #2D2D2D;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+    width: 22.621vw;
+    height: 3.221vw;
+}
+
+.wishlisttbox {
+    margin-left:2.263vw;
+    width: 2.343vw;
+    height: 2.343vw;
+    background: #CDCDCD 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#wishlistt{
+        margin-top: 0.293vw;
+        margin-left: 0.366vw;
+        width: 1.611vw;
+        height: 1.684vw;
+        color: #8D8D8D 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+}
+#wishlistt:hover{
+    color:#E54725;
+    opacity:1;
+}
+#moneyy{
+    height:1.830vw;
+    margin-top:0.786vw;
+    color: #2D2D2D;
+    font: normal normal normal 1.464vw/2.196vw Poppins;
+}
+.tagbox{
+    margin-top:0.781vw;
+    width:17.757vw;
+    height:3.075vw;
+}
+.tagbox span{
+    color:#2D2D2D;
+    font: normal normal normal 0.952vw/1.611vw Poppins;
+}
+.tagbox p{
+    font: normal normal normal 0.878vw/1.464vw Poppins;
+    color: #ADADAD;
+}
+.descriptionboxx{
+    width: 27.810vw;
+    height:3.660vw;
+}
+.descriptionboxx span{
+    color:#2D2D2D;
+    font: normal normal normal 0.952vw/1.611vw Poppins;
+}
+.descriptionboxx p{
+    font: normal normal normal 0.878vw/1.464vw Poppins;
+    color: #ADADAD;
+}
+.checkoutt{
+    display: flex;
+    margin-top:5.671vw;
+    margin-left:41.837vw;
+    width:21.449vw;
+    height:2.855vw;
+    background-color:#8D8D8D;
+    box-shadow: 0vw 0.220vw 0.439vw #00000029;
+    align-items: center;
+    justify-content: center;
+}
+.checkoutt span{
+    color: #FFFFFF;
+    font: normal normal normal 1.464vw/2.196vw Poppins;
+}
+.billl{
+    display:flex;
+    height:7.540vw;
+    width:60.578vw;
+    margin-left:22.474vw;
+    margin-top:2.818vw;
+}
+.billl p{
+    width:7.760vw;
+    height:2.855vw;
+    font: normal normal normal 1.464vw/2.196vw Poppins;
+    color: #ADADAD;
+}
+.addresss{
+    margin-left:9.114vw;
+    width: 17.936vw;
+    height: 6.662vw;
+}
+.addresss p{
+    width:17.936vw;
+    height:2.196vw;
+    margin:0vw;
+    font: normal normal normal 1.464vw/2.196vw Poppins;
+    color: #2D2D2D;
+}
+.changeadd{
+    margin-left:6.149vw;
+}
+.contactno{
+    margin-left:22.474vw;
+    display:flex;
+    width:43.704vw;
+    height:2.855vw;
+}
+.contactno p{
+    font: normal normal normal 1.464vw/2.196vw Poppins;
+    color: #ADADAD;
+}
+.contactno span{
+    font: normal normal normal 1.464vw/2.196vw Poppins;
+    color: #2D2D2D;
+    margin-left:4.466vw;
+}
+#linee{
+    margin-top:7.687vw;
+    margin-left:40.849vw;
+    width:24.817vw;
+}
