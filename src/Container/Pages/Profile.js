@@ -20,7 +20,6 @@ function Profile(){
             </div>
             <div className="profileBox"> 
                 <div className="boxNav">
-<<<<<<< HEAD
                     <h6 className="myProfile" ><Link to="/myprofile" style={{color:'#4D4D4D'}}>MY PROFILE</Link></h6>
                     <h6 className="myOrders" ><Link to="/profile" style={{color:'#4D4D4D'}}>MY ORDERS</Link></h6>
                     <h6 className="myAddress" ><Link to='/address' style={{color:'#4D4D4D'}}>MY ADDRESS</Link></h6>
@@ -30,14 +29,6 @@ function Profile(){
                     <hr id='line00'></hr>
                     <hr id='line000'></hr>
                 </div>
-=======
-                    <h6 className="myProfile" >MY PROFILE</h6>
-                    <h6 className="myOrders" >MY ORDERS</h6>
-                    <h6 className="myAddress" >MY ADDRESS</h6>
-                </div>
-                <hr id='lineeee'></hr>
-                <hr id='lineeee2'></hr>
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
                 <div className="orderBox">
                     <div className="orderID">
                         <h6>1</h6>
@@ -84,7 +75,6 @@ function Profile(){
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
                 <div className="secondBoxOrder">
                     <div className="secondOrderID">
                         <h6>2</h6>
@@ -101,8 +91,7 @@ function Profile(){
                         <span className="Delivered">Delivered</span>
                     </div>
                 </div>
-=======
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
+
             </div>
             <hr id='linee'></hr>
             <div className='cardss'>

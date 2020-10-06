@@ -377,6 +377,30 @@
     margin-left: 6.515vw;
     font:normal normal normal 2.489vw/3.734vw Poppins;
 }
+.popupBody { 
+    display:flex;
+    position: sticky;
+    height:2900px;
+    width:900px;
+    font: normal normal bold 2.143vw/3.286vw Poppins;
+}
+#soon{ 
+    color:#222222;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CDCDCD;
+    position:sticky;
+    top:300px;
+    height:80px;
+    width:500px;
+    margin-left:300px;
+    margin-top:290px;
+}
+#soon:hover{
+    color:#CDCDCD;
+    background-color: #222222;
+}
 
 @media (max-width:700px){
     #focus{

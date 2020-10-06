@@ -10,29 +10,17 @@
 }
 
 .profileBox {
-<<<<<<< HEAD
     margin-top: 0vw;
     display: grid;
     grid-template-rows: 4.539vw 1.684vw 35.019vw 135px;
     border: 0.073vw solid #707070;
     width: 920px;
     height: 789px;
-=======
-    display: grid;
-    border: 0.073vw solid #707070;
-    width: 67.350vw;
-    height:45.168vw;
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
     margin-left: 22.474vw;
 
 }
 
 .boxNav {
-<<<<<<< HEAD
-
-=======
-    /* border: 1px solid #707070; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
     margin-top: 2.489vw;
     margin-left: 5.051vw;
     width: 43.192vw;
@@ -44,7 +32,6 @@
     width: 7.906vw;
     height: 2.050vw;
     font: normal normal normal 1.464vw/2.196vw Poppins;
-<<<<<<< HEAD
     color: #4D4D4D;
     margin-top: 0vw;
 }
@@ -59,22 +46,6 @@
     margin-top: 0vw;
 }
 
-=======
-    color: #4D4D4D;
-    margin-top: 0vw;
-}
-
-.myOrders {
-
-    width: 8.126vw;
-    height: 2.050vw;
-    font: normal normal normal 1.464vw/2.196vw Poppins;
-    color: #4D4D4D;
-    margin-left: 9.004vw;
-    margin-top: 0vw;
-}
-
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
 .myAddress {
     font: normal normal normal 1.464vw/2.196vw Poppins;
     color: #4D4D4D;
@@ -84,7 +55,6 @@
     margin-top: 0vw;
 }
 
-<<<<<<< HEAD
 #line0 {
     margin-right: 0vw;
     margin-left: 5.051vw;
@@ -107,37 +77,15 @@
     width: 32.723vw;
     margin-top: 1.611vw;
     border: 0.073vw solid rgb(196, 196, 196);
-=======
-#lineeee {
-    margin-top: 1.025vw;
-    width: 56.735vw;
-    margin-left: 5.051vw;
-    color: #CDCDCD;
-}
-
-#lineeee2 {
-    height: 0.073vw;
-    width: 7.906vw;
-    margin-left: 22.108vw;
-    margin-top: -1.947vw;
-    color: #4D4D4D;
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
 }
 
 .orderBox {
     display: grid;
     grid-template-rows: 3.367vw 3.367vw 3.367vw 3.367vw 3.367vw 3.367vw 1.318vw;
-<<<<<<< HEAD
     width: 775px;
     height: 430px;
     border: 0.073vw solid #CDCDCD;
     margin-top: 3.001vw;
-=======
-    width: 56.735vw;
-    height: 33.748vw;
-    border: 0.073vw solid #CDCDCD;
-    margin-top: 0.293vw;
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
     margin-left: 5.051vw;
 
 
@@ -145,10 +93,6 @@
 
 .orderID {
     display: flex;
-<<<<<<< HEAD
-=======
-    /* border: 1px solid #707070; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
     margin-top: 2.050vw;
     margin-left: 2.050vw;
     width: 51.245vw;
@@ -178,10 +122,6 @@
     margin-left: 9.370vw;
     font: normal normal normal 1.098vw/1.684vw Poppins;
     color: #2D2D2D;
-<<<<<<< HEAD
-=======
-    /* border:1px solid lightseagreen; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
 }
 
 .closeDetail {
@@ -193,10 +133,7 @@
     font: normal normal normal 1.098vw/1.684vw Poppins;
     text-align: center;
     color: #8D8D8D;
-<<<<<<< HEAD
     cursor:pointer;
-=======
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
 }
 
 .datee {
@@ -205,10 +142,6 @@
     height: 1.537vw;
     margin-top: 1.830vw;
     margin-left: 3.807vw;
-<<<<<<< HEAD
-=======
-    /* border: 1px solid lightseagreen; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
 }
 
 .dateeW {
@@ -232,10 +165,6 @@
     height: 1.537vw;
     margin-top: 1.830vw;
     margin-left: 3.807vw;
-<<<<<<< HEAD
-=======
-    /* border: 1px solid lightseagreen; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
 }
 
 .totalAmount {
@@ -259,10 +188,6 @@
     height: 1.537vw;
     margin-top: 1.830vw;
     margin-left: 3.807vw;
-<<<<<<< HEAD
-=======
-    /* border: 1px solid lightseagreen; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
 }
 
 .paymentMode {
@@ -286,10 +211,6 @@
     height: 1.537vw;
     margin-top: 1.830vw;
     margin-left: 3.807vw;
-<<<<<<< HEAD
-=======
-    /* border: 1px solid lightseagreen; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
 }
 
 .Status {
@@ -313,10 +234,6 @@
     height: 1.537vw;
     margin-top: 1.830vw;
     margin-left: 3.807vw;
-<<<<<<< HEAD
-=======
-    /* border: 1px solid lightseagreen; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
 }
 
 .items {
@@ -340,10 +257,6 @@
     margin-left: 5.783vw;
     width: 40.776vw;
     height: 7.247vw;
-<<<<<<< HEAD
-=======
-    /* border: 1px solid lightseagreen; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
     display: flex;
 }
 
@@ -352,10 +265,6 @@
     margin-left: 0vw;
     width: 19.180vw;
     height: 7.247vw;
-<<<<<<< HEAD
-=======
-    /* border: 1px solid salmon; */
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
     display: flex;
 }
 
@@ -372,11 +281,7 @@
     margin-top: 0vw;
     margin-left: 3.001vw;
     width: 9.078vw;
-<<<<<<< HEAD
     height: 7.247vw;
-=======
-    height:7.247vw;
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a
     display: grid;
 }
 
@@ -412,7 +317,6 @@
     margin-left: 2.709vw;
     width: 18.814vw;
     height: 7.247vw;
-<<<<<<< HEAD
     display: flex;
 }
 
@@ -453,8 +357,3 @@
     }
 
 }
-=======
-    /* border: 1px solid salmon; */
-    display: flex;
-}
->>>>>>> eb624436021855f8ff6c180b80af8dca7c1d0a7a

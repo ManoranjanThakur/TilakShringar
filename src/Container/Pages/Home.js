@@ -16,6 +16,7 @@ function Home() {
     
     return (
         <div>
+           
            <Header/>
            <Index3/>
            <Search/>
@@ -67,6 +68,17 @@ function Home() {
                 </div>
             </div>
             <Footer/>
+            <div className="popUp ">
+                <div className="popUpcontent">
+                    <div>
+                        <div className="popupBody">
+                            
+                            <div id="soon">TILAK SHRINGAR COMING SOON!</div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
            </div>
     )
     

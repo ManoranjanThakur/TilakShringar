@@ -90,22 +90,19 @@ button {
 .popUp{
     position:absolute;
     -webkit-position:sticky;
-    width: 100%;
-    height: 100%;   
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 1366px;
+    height: 2950px;   
+    background-color: rgba(0, 0, 0, 0.9);
     top:0;
     z-index: 1045;   
 }
 .popUpcontent{
     width:1088px;
-    height:inherit;
+    height:2875px;
     margin-top:45px;
     margin-left:139px;
     background-color: white;
     z-index: 1046;
-}
-.headerPopup{
-
 }
 
 @media (max-width:700px){
