@@ -390,30 +390,30 @@
     }
 
     .product1 {
-        margin-left: 3.286vw;
-        width: 31.429vw;
+        margin-left: 1.286vw;
+        width: 29.429vw;
         height: 29.429vw;
     }
 
     .p1info {
-        margin-left: 3.286vw;
+        margin-left: 1.286vw;
 
     }
 
     #product1i {
-        width: 31.429vw;
+        width: 29.429vw;
         height: 6.286vw;
-        font: normal normal normal 2.143vw/3.286vw Poppins;
+        font: normal normal normal 1.9vw/3.286vw Poppins;
     }
 
     #price1 {
-        width: 31.714vw;
+        width: 29.714vw;
         height: 2.714vw;
-        font: normal normal normal 1.857vw/2.857vw Poppins;
+        font: normal normal normal 1.7vw/2.857vw Poppins;
     }
 
     .ii {
-        width: 28.997vw;
+        width: 26.997vw;
         height: 4vw;
         margin-left: 1.009vw;
         margin-top: 0.571vw;
@@ -427,7 +427,7 @@
     }
 
     .ii1 {
-        margin-left: 25.143vw;
+        margin-left: 23.143vw;;
         width: 3.857vw;
         height: 3.857vw;
     }
@@ -435,21 +435,192 @@
     #iii2 {
         width: 2.857vw;
         height: 2.571vw;
-        margin-top:0.571vw;
+        margin-top: 0.571vw;
         margin-left: 0.500vw;
 
     }
-    #iii1{
+
+    #iii1 {
         width: 2.857vw;
         height: 2.571vw;
-        margin-top:0.571vw;
-        margin-left: 0.500vw;
-    }
-    .product2{
-        width: 31.429vw;
-        height: 29.429vw;
-        margin-top: 0;
+        margin-top: 0.571vw;
         margin-left: 0.500vw;
     }
 
+    .product2 {
+        width: 29.429vw;
+        height: 29.429vw;
+        margin-top: -36.714vw;
+        margin-left: 33.5vw;
+    }
+
+    .p2info {
+        margin-left: 33.5vw;
+    }
+
+    #product2i {
+        width: 31.429vw;
+        height: 6.286vw;
+        font: normal normal normal 1.9vw/3.286vw Poppins;
+    }
+
+    #price2 {
+        width: 29.714vw;
+        height: 2.714vw;
+        font: normal normal normal 1.7vw/2.857vw Poppins;
+    }
+
+    .product3 {
+        width: 29.429vw;
+        height: 29.429vw;
+        margin-top: -36.857vw;
+        margin-left: 65.5vw;
+    }
+    .p3info {
+        margin-left: 65.5vw;
+    }
+
+    #product3i {
+        width: 31.429vw;
+        height: 6.286vw;
+        font: normal normal normal 1.9vw/3.286vw Poppins;
+    }
+
+    #price3 {
+        width: 29.714vw;
+        height: 2.714vw;
+        font: normal normal normal 1.7vw/2.857vw Poppins;
+    }
+    .product4 {
+        margin-left: 1.286vw;
+        width: 29.429vw;
+        height: 29.429vw;
+        margin-top:30px;
+    }
+
+    .p4info {
+        margin-left: 1.286vw;
+
+    }
+
+    #product4i {
+        width: 29.429vw;
+        height: 6.286vw;
+        font: normal normal normal 1.9vw/3.286vw Poppins;
+    }
+
+    #price4 {
+        width: 29.714vw;
+        height: 2.714vw;
+        font: normal normal normal 1.7vw/2.857vw Poppins;
+    }
+    .product5 {
+        width: 29.429vw;
+        height: 29.429vw;
+        margin-top: -36.714vw;
+        margin-left: 33.5vw;
+    }
+
+    .p5info {
+        margin-left: 33.5vw;
+    }
+
+    #product5i {
+        width: 31.429vw;
+        height: 6.286vw;
+        font: normal normal normal 1.9vw/3.286vw Poppins;
+    }
+
+    #price5 {
+        width: 29.714vw;
+        height: 2.714vw;
+        font: normal normal normal 1.7vw/2.857vw Poppins;
+    }
+    .product6 {
+        width: 29.429vw;
+        height: 29.429vw;
+        margin-top: -36.857vw;
+        margin-left: 65.5vw;
+    }
+    .p6info {
+        margin-left: 65.5vw;
+    }
+
+    #product6i {
+        width: 31.429vw;
+        height: 6.286vw;
+        font: normal normal normal 1.9vw/3.286vw Poppins;
+    }
+
+    #price6 {
+        width: 29.714vw;
+        height: 2.714vw;
+        font: normal normal normal 1.7vw/2.857vw Poppins;
+    }
+    .product7 {
+        margin-left: 1.286vw;
+        width: 29.429vw;
+        height: 29.429vw;
+        margin-top:30px;
+    }
+
+    .p7info {
+        margin-left: 1.286vw;
+
+    }
+
+    #product7i {
+        width: 29.429vw;
+        height: 6.286vw;
+        font: normal normal normal 1.9vw/3.286vw Poppins;
+    }
+
+    #price7 {
+        width: 29.714vw;
+        height: 2.714vw;
+        font: normal normal normal 1.7vw/2.857vw Poppins;
+    }
+    .product8 {
+        width: 29.429vw;
+        height: 29.429vw;
+        margin-top: -36.714vw;
+        margin-left: 33.5vw;
+    }
+
+    .p8info {
+        margin-left: 33.5vw;
+    }
+
+    #product8i {
+        width: 31.429vw;
+        height: 6.286vw;
+        font: normal normal normal 1.9vw/3.286vw Poppins;
+    }
+
+    #price8 {
+        width: 29.714vw;
+        height: 2.714vw;
+        font: normal normal normal 1.7vw/2.857vw Poppins;
+    }
+    .product9 {
+        width: 29.429vw;
+        height: 29.429vw;
+        margin-top: -36.857vw;
+        margin-left: 65.5vw;
+    }
+    .p9info {
+        margin-left: 65.5vw;
+    }
+
+    #product9i {
+        width: 31.429vw;
+        height: 6.286vw;
+        font: normal normal normal 1.9vw/3.286vw Poppins;
+    }
+
+    #price9 {
+        width: 29.714vw;
+        height: 2.714vw;
+        font: normal normal normal 1.7vw/2.857vw Poppins;
+    }
 }

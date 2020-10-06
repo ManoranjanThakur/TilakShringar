@@ -68,7 +68,7 @@ function Home() {
                 </div>
             </div>
             <Footer/>
-            <div className="popUp ">
+            {/* <div className="popUp ">
                 <div className="popUpcontent">
                     <div>
                         <div className="popupBody">
@@ -78,7 +78,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
            </div>
     )
     

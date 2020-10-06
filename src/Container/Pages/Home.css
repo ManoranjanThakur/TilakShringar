@@ -377,7 +377,7 @@
     margin-left: 6.515vw;
     font:normal normal normal 2.489vw/3.734vw Poppins;
 }
-.popupBody { 
+/* .popupBody { 
     display:flex;
     position: sticky;
     height:2900px;
@@ -400,7 +400,7 @@
 #soon:hover{
     color:#CDCDCD;
     background-color: #222222;
-}
+} */
 
 @media (max-width:700px){
     #focus{
@@ -469,5 +469,68 @@
         font: normal normal bold 1.8577vw/2.9718vw Poppins;
 
     }
+    .cards{
+    display:flex;
+    margin-top:7.321vw;
+    margin-left:3.807vw;
+    height:21.230vw;
+    width:92.387vw;
+}
+.rcard1{
+    display:flex;
+    margin-left:0vw;
+    height:21.230vw;
+    width:21.157vw;
+    border: 0.146vw solid #CDCDCD;
+
+}
+.rcard1 span{
+    color:#4D4D4D;
+    margin-top: 8.858vw;
+    margin-left: 7.247vw;
+    font:normal normal normal 2.489vw/3.734vw Poppins;
+}
+.rcard2{
+    display:flex;
+    margin-left:2.562vw;
+    height:21.230vw;
+    width:21.157vw;
+    border: 0.146vw solid #CDCDCD;
+
+}
+.rcard2 span{
+    color:#4D4D4D;
+    margin-top: 8.858vw;
+    margin-left: 6.442vw;
+    font:normal normal normal 2.489vw/3.734vw Poppins;
+}
+.rcard3{
+    margin-left:2.562vw;
+    display:flex;
+    height:21.230vw;
+    width:21.157vw;
+    border: 0.146vw solid #CDCDCD;
+
+}
+.rcard3 span{
+    color:#4D4D4D;
+    margin-top: 8.858vw;
+    margin-left: 3.014vw;
+    font:normal normal normal 2.489vw/3.734vw Poppins;
+}
+.rcard4{
+    display:flex;
+    margin-left:2.562vw;
+    height:21.230vw;
+    width:21.157vw;
+    border: 0.146vw solid #CDCDCD;
+
+}
+.rcard4 span{
+    color:#4D4D4D;
+    margin-top: 8.858vw;
+    margin-left: 6.515vw;
+    font:normal normal normal 2.489vw/3.734vw Poppins;
+}
     
 }
