@@ -11,6 +11,9 @@ import Cart from './Container/Pages/Cart';
 import Product from './Container/Pages/Product';
 import Blogs from './Container/Pages/Blogs';
 import Profile from './Container/Pages/Profile';
+import myProfile from './Container/Pages/myProfile';
+import Address from './Container/Pages/Address';
+import Admin from './Container/Pages/Admin';
 function App() {
 
   return (
@@ -26,7 +29,10 @@ function App() {
         <Route path="/product" component={Product}></Route>
         <Route path="/blogs" component={Blogs}></Route>
         <Route path="/profile" component={Profile}></Route>
-      </Switch>
+        <Route path="/address" component={Address}></Route>
+        <Route path="/myprofile" component={myProfile}></Route>
+        <Route path="/admin" component={Admin}></Route>
+        </Switch>
     </div>
     </Router>
 

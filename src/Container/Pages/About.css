@@ -98,7 +98,7 @@
     height: 19.985vw;
     text-align: left;
     font: normal normal normal 1.098vw/1.684vw Poppins;
-    letter-spacing: 0px;
+    letter-spacing: 0vw;
     color:#ADADAD;
 }
 .rightt{
@@ -244,4 +244,17 @@
     margin-top: 8.858vw;
     margin-left: 6.515vw;
     font:normal normal normal 2.489vw/3.734vw Poppins;
+}
+
+@media (max-width:700px){
+    .bheadandadd{
+        margin-top:2vw;
+        display:flex;
+    }
+    .headlinee{
+        margin-top:2.143vw;
+        margin-left:5.286vw;
+        font: normal normal normal 2.562vw/3.880vw Poppins;
+    }
+
 }

@@ -103,12 +103,20 @@
     color: #FFFFFF;
     font: normal normal normal 1.464vw/2.196vw Poppins;
 }
+.Shadow{
+    margin-top:3.148vw;
+    margin-left: 21.157vw;
+    width:57.687vw;
+    height:10.981vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0vw 0.220vw 0.439vw #00000029;
+}
 .billl{
     display:flex;
     height:7.540vw;
     width:60.578vw;
-    margin-left:22.474vw;
-    margin-top:2.818vw;
+    margin-left:1.318vw;
+    margin-top:0.439vw;
 }
 .billl p{
     width:7.760vw;
@@ -129,10 +137,10 @@
     color: #2D2D2D;
 }
 .changeadd{
-    margin-left:6.149vw;
+    margin-left:13.726vw;
 }
 .contactno{
-    margin-left:22.474vw;
+    margin-left:1.318vw;
     display:flex;
     width:43.704vw;
     height:2.855vw;
@@ -151,3 +159,12 @@
     margin-left:40.849vw;
     width:24.817vw;
 }
+
+@media (max-width:700px){
+    .headlinee{
+        margin-top:2.143vw;
+        margin-left:6.286vw;
+        font: normal normal normal 2.562vw/3.880vw Poppins;
+    }
+  
+  }

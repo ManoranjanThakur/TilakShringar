@@ -1,79 +1,149 @@
-.breadcrumbs{
-    margin-left:21.889vw;
-    border:0.146vw solid red;
-    margin-top:2.928vw;
-    width:51.245vw;
-    height:1.537vw;
+.breadcrumbs {
+    margin-left: 21.889vw;
+    border: 0.146vw solid red;
+    margin-top: 2.928vw;
+    width: 51.245vw;
+    height: 1.537vw;
 }
-.headlineee{
-    margin-left:21.889vw;
-    margin-top:2.928vw;
+
+.headlineee {
+    margin-left: 21.889vw;
+    margin-top: 2.928vw;
     font: normal normal normal 2.562vw/3.880vw Poppins;
 }
-.productss{
-    display:flex;
-    margin-left:21.889vw;
-    margin-top:2.928vw;
-    width:67.936vw;
+
+.productss {
+    display: flex;
+    margin-left: 21.889vw;
+    margin-top: 2.928vw;
+    width: 67.936vw;
     height:39.019vw;
 }
-.productpic{
-    display:grid;
-    width:31.625vw;
-    height:39.019vw;
+
+.productpic {
+    display: grid;
+    width: 31.625vw;
+    height: 39.019vw;
 
 }
-.ppic{
+
+.ppic {
     width:31.625vw;
-    height:29.795vw;
+    height: 29.795vw;
     background-color: #6D6D6D;
 }
-.productdes{
-    display:grid;
-    margin-left:5.857vw;
-    width:30.454vw;
-    height:3.221vw;
-    
+
+.productSimilar {
+    height:6.296vw;
+    margin-top: 2.928vw;
+    display: flex;
 }
-.productdes p{
-    color:#2D2D2D;
+
+.leftSlide {
+    width: 2.782vw;
+    height: 6.296vw;
+    background-color: #CDCDCD;
+    cursor:"pointer";
+}
+
+#Arrow {
+    margin-top: 2.158vw;
+    margin-left: 0.409vw;
+    width: 1.977vw;
+    height: 1.830vw;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.similarImage1 {
+    width: 6.662vw;
+    height:6.296vw;
+    background-color: #ADADAD;
+    margin-left: 1.830vw;
+    margin-top: 0vw;
+}
+
+.similarImage2 {
+    width: 6.662vw;
+    height: 6.296vw;
+    background-color: #ADADAD;
+    margin-left: 1.684vw;
+    margin-top:0vw;
+}
+
+.similarImage3 {
+    width: 6.662vw;
+    height:6.296vw;
+    background-color: #ADADAD;
+    margin-left: 1.684vw;
+    margin-top: 0vw;
+}
+
+.rightSlide {
+    width: 2.782vw;
+    height:6.296vw;
+    background-color: #CDCDCD;
+    margin-left: 1.318vw;
+    cursor:pointer;
+}
+
+.productdes {
+    display: grid;
+    margin-left: 5.857vw;
+    width: 30.454vw;
+    height: 3.221vw;
+
+}
+
+.productdes p {
+    color: #2D2D2D;
     width: 24.524vw;
-    height:3.221vw;
+    height: 3.221vw;
     font: normal normal normal 1.098vw/1.684vw Poppins;
 }
-.cost{
-    color:#2D2D2D;
-    margin-top:2.928vw;
+
+.cost {
+    color: #2D2D2D;
+    margin-top: 2.928vw;
     width: 24.524vw;
     font: normal normal normal 1.757vw/2.562vw Poppins;
 }
-.tags{
-    color:#2D2D2D;
-    margin-top:2.928vw;
+
+
+
+.tags {
+    color: #2D2D2D;
+    margin-top: 2.928vw;
     width: 24.524vw;
     font: normal normal normal 1.098vw/1.684vw Poppins;
 }
-.productdes p2{
-    color:#ADADAD;
+
+.productdes p2 {
+    color: #ADADAD;
     width: 24.524vw;
     font: normal normal normal 0.878vw/1.464vw Poppins;
 }
-.descriptions{
-    margin-top:2.928vw;
+
+.descriptions {
+    margin-top: 2.928vw;
     width: 30.381vw;
-    height:21.376vw;
-    
+    height: 21.376vw;
+
 }
-.descriptions span{
-color:#2D2D2D;
-font: normal normal normal 1.098vw/1.684vw Poppins;
+
+.descriptions span {
+    color: #2D2D2D;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
 }
-.descriptions p{
-    color:#ADADAD;
+
+.descriptions p {
+    color: #ADADAD;
     font: normal normal normal 0.878vw/1.464vw Poppins;
 }
+
 .icon2 {
-    
+
     margin-top: -4.343vw;
     margin-left: 27.009vw;
 
@@ -82,21 +152,23 @@ font: normal normal normal 1.098vw/1.684vw Poppins;
     background: #CDCDCD 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-#iconn2{
-        margin-top: 0.293vw;
-        margin-left: 0.366vw;
-        width: 1.611vw;
-        height: 1.684vw;
-        color: #8D8D8D 0% 0% no-repeat padding-box;
-        opacity: 0.4;
-   
+
+#iconn2 {
+    margin-top: 0.293vw;
+    margin-left: 0.366vw;
+    width: 1.611vw;
+    height: 1.684vw;
+    color: #8D8D8D 0% 0% no-repeat padding-box;
+    opacity: 0.4;
+
 }
 
-#iconn2:hover{
-    color:#E54725;
-    opacity:1;
+#iconn2:hover {
+    color: #E54725;
+    opacity: 1;
 }
-.icon1{
+
+.icon1 {
     margin-top: -0.634vw;
     margin-left: 26.937vw;
     width: 2.343vw;
@@ -104,7 +176,8 @@ font: normal normal normal 1.098vw/1.684vw Poppins;
     background: #CDCDCD 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-#iconn1{
+
+#iconn1 {
     margin-top: 0.293vw;
     margin-left: 0.366vw;
     width: 1.611vw;
@@ -112,7 +185,160 @@ font: normal normal normal 1.098vw/1.684vw Poppins;
     color: #8D8D8D 0% 0% no-repeat padding-box;
     opacity: 0.4;
 }
-#iconn1:hover{
-    color:#4D8FAC;
-    opacity:2;
+
+#iconn1:hover {
+    color: #4D8FAC;
+    opacity: 2;
+}
+
+.reviewBox {
+    width: 68.741vw;
+    height: 27.892vw;
+    border: 0.073vw solid #CDCDCD;
+    margin-top:4.026vw;
+    margin-left: 21.889vw;
+    display: grid;
+    grid-template-rows: 3.001vw 2.859vw 8.122vw 12.152vw;
+}
+
+.reviewsHeading {
+    width: 4.612vw;
+    height: 1.537vw;
+    margin-top: 1.464vw;
+    margin-left: 1.464vw;
+    color: #2D2D2D;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+.fiveStar {
+    display: flex;
+    width: 158.11.611vw;
+    height: 1.903vw;
+    margin-top: 0.947vw;
+    margin-left: 21.596vw;
+}
+
+.writeBox {
+    margin-top: 0.728vw;
+    margin-left: 1.464vw;
+    height: 7.394vw;
+    width: 63.177vw;
+    display: flex;
+}
+
+.writeReview {
+    border: 0.073vw solid #CDCDCD;
+    width: 51.830vw;
+    height: 7.394vw;
+    display: flex;
+
+}
+
+.commentBox {
+    outline: none;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+    resize: none;
+    width: 47.145vw;
+    height: 7.028vw;
+    margin-top: 0.146vw;
+    margin-left: 0.732vw;
+    border: none;
+}
+
+.attachmentLimit {
+    width: 3.221vw;
+    height: 5.898vw;
+    margin-top: 0.146vw;
+    margin-right: 0.764vw;
+    display: grid;
+    grid-template-rows: 1.318vw 4.776vw;
+}
+
+.Limit {
+    width: 3.221vw;
+    height: 1.537vw;
+    margin-top: 3.221vw;
+    color: #ADADAD;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+.sendReview {
+    border: none;
+    margin-top: 0vw;
+    margin-left: 1.098vw;
+    width: 10.249vw;
+    height: 2.928vw;
+    background-color: #CDCDCD;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.showReview {
+    width: 43.558vw;
+    height: 11.127vw;
+    border: 0.073vw solid #CDCDCD;
+    margin-top: 1.025vw;
+    margin-left: 1.464vw;
+    display: grid;
+    grid-template-rows: 2.782vw 2.269vw 6.076vw;
+}
+
+.userNameReview {
+    height: 1.537vw;
+    display: flex;
+    width: 41.467vw;
+    margin-top: 1.245vw;
+    margin-left: 0.878vw;
+
+}
+
+.reviewShow {
+    width: 39.531vw;
+    height: 1.537vw;
+    margin-top: 0.732vw;
+    margin-left: 3.807vw;
+    font: normal normal normal 1.098vw/1.464vw Poppins;
+    color: #8D8D8D;
+
+}
+
+.reviewImage {
+    border: 0.073vw solid black;
+    width: 41.069vw;
+    height: 3.880vw;
+    margin-top: 2.050vw;
+    margin-left: 0.878vw;
+}
+
+.roundCircle {
+    width: 1.464vw;
+    height: 1.537vw;
+    border: 0.073vw solid #707070;
+    border-radius: 100%;
+}
+
+.personName {
+    width: 4.539vw;
+    height: 1.537vw;
+    margin-left: 0.878vw;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+    color: #2D2D2D;
+}
+
+.reviewNo {
+    width: 0.659vw;
+    height: 1.537vw;
+    margin-left:31.406vw;
+    font: normal normal normal 1.098vw/1.684vw Poppins;
+    color: #8D8D8D;
+}
+
+@media (max-width:700px) {
+    .headlineee {
+        margin-top: 2.143vw;
+        margin-left: 6.286vw;
+        font: normal normal normal 2.562vw/3.880vw Poppins;
+    }
+
 }

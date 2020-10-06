@@ -25,7 +25,7 @@
     color: #8D8D8D;
 }
 .userdetails input{
-    margin:6px;
+    margin:0.439vw;
     font: normal normal normal 1.098vw/1.684vw Poppins;
     color: #8D8D8D;
     margin-left:2.745vw;
@@ -103,3 +103,12 @@
     margin-left: 3.014vw;
     font:normal normal normal 2.489vw/3.734vw Poppins;
 }
+
+@media (max-width:700px){
+    .headlineeee{
+        margin-top:2.143vw;
+        margin-left:6.286vw;
+        font: normal normal normal 2.562vw/3.880vw Poppins;
+    }
+  
+  }

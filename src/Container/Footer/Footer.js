@@ -3,17 +3,19 @@ import './Footer.css';
 import { FaPhoneAlt } from "react-icons/fa";
 import { GrMail} from "react-icons/gr";
 import { GoLocation} from "react-icons/go";
-import { BiCopyright} from 'react-icons/bi'
+import { BiCopyright} from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 function Footer() {
     return (
         <div className='footer'>
         <div className='f1'>Want latest updates? Just subscribe
-            <input type='text' placeholder='Email' className='email'></input><button className='ok'>OK</button>
+            <div className="emaildiv">
+            <input type='text' placeholder='Email' className='email'></input><button className='ok' style={{cursor:"pointer"}}>OK</button>
+            </div>
         </div>
         
         <div className='f2'>
-            <span>Contact - <br/> <FaPhoneAlt/> &nbsp;&nbsp;  9876543210 <br/>
+            <span>Contact - <br/> <FaPhoneAlt /> &nbsp;&nbsp;  9876543210 <br/>
                 <br/>
                 Email Address - <br/>
                 <GrMail/> &nbsp;&nbsp;  Examplewebsite@gmail.com <br/>
@@ -27,7 +29,7 @@ function Footer() {
             <span className='f3d'>Track your Order</span><br/>
             <span className='f3e'>Return your Order</span><br/>
         </div>
-        <div className='f4'>Tilak Shringar | <BiCopyright/> All rights reserved 2020</div>
+        <div className='f4'>Tilak Shringar | <BiCopyright /> All rights reserved 2020</div>
 
     </div>
     )

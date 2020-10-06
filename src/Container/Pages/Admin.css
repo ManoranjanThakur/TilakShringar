@@ -1,0 +1,147 @@
+.heading {
+    width: 197px;
+    height: 49px;
+    margin-top: 94px;
+    margin-left: 139px;
+    font: normal normal normal 35px/53px Poppins;
+    color: #4D4D4D;
+}
+
+.Aboutttt {
+    margin-left: 452px;
+    margin-top: 40px;
+}
+
+.adminBox {
+    width: 1226px;
+    height: 961px;
+    border: 1px solid #707070;
+    margin-left: 70px;
+    margin-top: 16px;
+    display: grid;
+    grid-template-rows: 60px 24px 77px 72px 655px;
+}
+
+.adminNav {
+    width: 517px;
+    height: 28px;
+    margin-left: 69px;
+    margin-top: 32px;
+    display: flex;
+}
+
+.adminProducts {
+    width: 105px;
+    height: 28px;
+    font: normal normal normal 20px/30px Poppins;
+    color: #4D4D4D;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.adminBilling {
+    width: 69px;
+    height: 28px;
+    margin-top: 0px;
+    margin-left: 123px;
+    font: normal normal normal 20px/30px Poppins;
+    color: #8D8D8D;
+}
+
+.adminReseller {
+    width: 96px;
+    height: 28px;
+    margin-top: 0px;
+    margin-left: 123px;
+    font: normal normal normal 20px/30px Poppins;
+    color: #8D8D8D;
+}
+
+.productLine {
+    width: 1106px;
+    display: flex;
+    margin-left: 69px;
+    margin-top: 24px;
+    height: 0;
+}
+
+#adminLine2 {
+    width: 108px;
+    border: 2px solid #4D4D4D;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+
+}
+
+#adminLine {
+    margin-left: 0;
+    margin-top: 0;
+    width: 1001px;
+    border: 2px solid #CDCDCD;
+}
+
+.categoryProductBtn {
+    width: 1090px;
+    height: 39px;
+    display: flex;
+    margin-top: 34px;
+    margin-left: 87px;
+}
+
+.categoryBtn {
+    width: 177px;
+    height: 39px;
+    background: #949494;
+    font: normal normal normal 17px/23px Poppins;
+    color: #FFFFFF;
+    border-radius: 0;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.productBtn {
+    margin-left: 32px;
+    width: 157px;
+    height: 39px;
+    background: #949494;
+    font: normal normal normal 17px/23px Poppins;
+    color: #FFFFFF;
+    border-radius: 0;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.productNumber {
+    width: 276px;
+    height: 21px;
+    margin-left: 462px;
+    text-align: right;
+    font: normal normal normal 15px/23px Poppins;
+    color: #CDCDCD;
+}
+
+.SearchDrop {
+    width: 721px;
+    height: 40px;
+    margin-top: 32px;
+    margin-left: 87px;
+    border: 1px solid coral;
+}
+
+.AdminProductDetails {
+    width: 1086px;
+    height: 623px;
+    margin-top: 32px;
+    margin-left: 87px;
+    border: 1px solid #707070;
+}
+
+.endLine {
+    margin-top: 26.51px;
+    margin-left: 513.5;
+    width: 339px;
+    border: 1px solid #CDCDCD;
+}

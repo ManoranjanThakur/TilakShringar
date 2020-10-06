@@ -57,7 +57,7 @@
     border-bottom-left-radius: 1.318vw;
     border-bottom-right-radius: 1.318vw;
 }
-h1{
+.contentt h1{
     font: normal normal bold 1.098vw/1.391vw poppins;
     text-align:center;
 }
@@ -67,9 +67,10 @@ h1{
     left:0;
     bottom:0;
     text-align:center;
+    transition: 0.5s ;
     
   }
-p{
+.contentt p{
     text-align:left;
     color: #ADADAD;;
     font: normal normal normal 0.952vw/1.171vw poppins;
@@ -86,5 +87,32 @@ button {
     padding:0.512vw;
     opacity:0.6;
 }
+.popUp{
+    position:absolute;
+    -webkit-position:sticky;
+    width: 100%;
+    height: 100%;   
+    background-color: rgba(0, 0, 0, 0.5);
+    top:0;
+    z-index: 1045;   
+}
+.popUpcontent{
+    width:1088px;
+    height:inherit;
+    margin-top:45px;
+    margin-left:139px;
+    background-color: white;
+    z-index: 1046;
+}
+.headerPopup{
 
+}
 
+@media (max-width:700px){
+    .headlinee{
+        margin-top:2.143vw;
+        margin-left:6.286vw;
+        font: normal normal normal 2.562vw/3.880vw Poppins;
+    }
+  
+  }

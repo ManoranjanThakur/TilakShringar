@@ -6,7 +6,11 @@ import Footer from '../Footer/Footer';
 import './Product.css';
 import {TiHeartFullOutline} from "react-icons/ti";
 import { BiCartAlt } from "react-icons/bi";
-// import { Link } from 'react-router-dom';
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward} from "react-icons/io";
+import { AiFillStar } from "react-icons/ai";
+import { MdAttachFile } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 var price=300;
 function Product() {
@@ -22,12 +26,23 @@ function Product() {
             <div className='productss'>
                 <div className='productpic'>
                     <div className='ppic'></div>
+                    <div className="productSimilar">
+                        <div className="leftSlide"><IoIosArrowBack id="Arrow"/></div>
+                        <div className="similarImage1"></div>
+                        <div className="similarImage2"></div>
+                        <div className="similarImage3"></div>
+                        <div className="rightSlide"><IoIosArrowForward id="Arrow"/></div>
+                    </div>
                 </div>
                 <div className='productdes'>
                     <p>Product Name will be written in maximum of two lines</p>
                     <div className="icon2"><TiHeartFullOutline id="iconn2"/></div> 
                     <div className="icon1"><BiCartAlt id="iconn1"/></div> 
-                    <span className='cost'>Rs. {price}/-</span>
+                    <div style={{display:"flex"}}>
+                        <span className='cost'>Rs. {price}/-</span>
+                        <AiFillStar style={{marginTop: "3.29vw",height:"1.830vw",width:"1.684vw",color:"#FFFF00"}} />
+                        <p style={{marginTop: "2.928vw",font:"normal normal normal 1.757vw/2.562vw Poppins",marginLeft:"0.512vw"}}>0.0</p>
+                    </div>
                     <span className='tags'>Tags:</span>
                     <p2>choli, white, small,</p2>
                     <div className='descriptions'>
@@ -36,7 +51,40 @@ function Product() {
                     </div>
                 </div>
             </div>
-
+            <div className="reviewBox">
+                <div className="reviewsHeading"> Reviews:</div>
+                <div className="fiveStar"><AiFillStar style={{height:"1.912vw", width:"1.998vw", color:"#CDCDCD"}}/><AiFillStar style={{height:"1.912vw", width:"1.998vw", color:"#CDCDCD", marginLeft:"0.2vw"}}/><AiFillStar style={{height:"1.912vw", width:"1.998vw", color:"#CDCDCD", marginLeft:"0.2vw"}}/><AiFillStar style={{height:"1.912vw", width:"1.998vw", color:"#CDCDCD", marginLeft:"0.2vw"}}/> <AiFillStar style={{height:"1.912vw", width:"1.998vw", color:"#CDCDCD", marginLeft:"0.2vw"}}/></div>
+                <div className="writeBox">
+                    <div className="writeReview">
+                        <textarea className="commentBox" maxlength="200"  placeholder="Choose a rating and start writing a review..."></textarea>
+                        <div className="attachmentLimit">
+                            <MdAttachFile style={{height:"1.611vw", width:"1.318vw", opacity:"0.7", marginLeft:"2.050vw",cursor:"pointer"}}/>
+                            <div className="Limit">0/200</div>
+                        </div>
+                    </div>
+                    <button className='sendReview' style={{borderRadius:"0" , color:"white"}}>Send</button>
+                </div>
+                <div className="showReview">
+                    <div className="userNameReview">
+                        <div className="roundCircle"></div>
+                        <div className="personName">Person 1</div>
+                        <div className="reviewNo">4</div>
+                        <AiFillStar style={{height:"1.245vw", width:"1.245vw", marginLeft:"0.293vw",marginTop:"0.220vw",color:"#ffff00"}}/>
+                    </div>
+                    <p className="reviewShow">I find this product pretty amazing and it was all what I was looking for.</p>
+                    <div className="reviewImage"></div>
+                </div>
+            </div>
+            <hr id='linee'></hr>
+            <div className='cardss'>
+                <div className='rcardd1'>
+                <span><Link to='/shop' style={{color:'#4D4D4D'}}>SHOP</Link></span>
+                </div>
+                <div className='rcard3'>
+                <span><Link to='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</Link></span>
+                </div>
+                
+            </div>
             <Footer/>
         </div>
     )

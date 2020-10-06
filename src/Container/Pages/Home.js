@@ -1,13 +1,19 @@
 import React from 'react';
-import Header from '../../Container/Top Nav Bar/Header';
+// import Pro from '../New Module/generateProducts'
 import Index3 from '../Side Nav Bar/Index3';
 import Search from '../Search Button/Search';
 import './Home.css';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom';
+import Header from '../Top Nav Bar/Header';
 
+const cards = {
+        name:"Choli and Duppata",
+        src:"https://www.wallpapertip.com/wmimgs/44-442882_laddu-gopal-wallpaper.jpg"
+    }
 
 function Home() {
+    
     return (
         <div>
            <Header/>
@@ -15,25 +21,25 @@ function Home() {
            <Search/>
            <h2 id='focus'>we focus on...</h2>
            <div className='cardsl1'>
-               <div className='card1'>
-                   <span id='text1'>Choli and Duppata</span>
+               <div className="card1"><img src={cards.src} alt='HR'/>
+                   <span id='text1'>{cards.name}</span>
                </div>
-               <div className='card2'>
-                   <span id='text2'>Choli and Duppata</span>
+               <div className='card2'><img src={cards.src} alt='HR'/>
+                   <span id='text2'>{cards.name}</span>
                </div>
-               <div className='card3'>
-                   <span id='text3'>Choli and Duppata</span>
+               <div className='card3'><img src={cards.src} alt='HR'/>
+                   <span id='text3'>{cards.name}</span>
                </div>
             </div>
             <div className='cardsl2'>
-               <div className='card4'>
-                   <span id='text4'>Choli and Duppata</span>
+               <div className='card4'><img src={cards.src} alt='HR'/>
+                   <span id='text4'>{cards.name}</span>
                </div>
-               <div className='card5'>
-                   <span id='text5'>Choli and Duppata</span>
+               <div className='card5'><img src={cards.src} alt='HR'/>
+                   <span id='text5'>{cards.name}</span>
                </div>
-               <div className='card6'>
-                   <span id='text6'>Choli and Duppata</span>
+               <div className='card6'><img src={cards.src} alt='HR'/>
+                   <span id='text6'>{cards.name}</span>
                </div>
             </div>
             <h2 className='work'>our work...</h2>
@@ -63,6 +69,7 @@ function Home() {
             <Footer/>
            </div>
     )
+    
 }
 
 export default Home

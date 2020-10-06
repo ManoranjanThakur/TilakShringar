@@ -12,14 +12,14 @@ function Blogs() {
             <Header/>
             <Index2/>
             <div className='shop'>
-            < Search />
+                < Search />
             </div>
             <h2 className='headlinee'>our blogs...</h2>
             <div className='containerr'>
                 <div className='containerr1'>
                 <div className='carrd'>
                     <div className='imagee'>
-                        <img src='https://img.faballey.com/images/Product/DRS03361Z/3.jpg' alt='HR'/>
+                        <img src='https://www.wallpapertip.com/wmimgs/44-442882_laddu-gopal-wallpaper.jpg' alt='HR'/>
                     </div>
                     <div className='contentt'>
                         <h1>Dress | My Blog</h1>
@@ -35,7 +35,7 @@ function Blogs() {
                 </div>
                 <div className='carrd'>
                     <div className='imagee'>
-                        <img src='https://www.brightontheday.com/wp-content/uploads/2017/12/look2-38.jpg' alt='HR'/>
+                        <img src='https://www.wallpapertip.com/wmimgs/44-442882_laddu-gopal-wallpaper.jpg' alt='HR'/>
                     </div>
                     <div className='contentt'>
                         <h1>Dress | My Blog</h1>
@@ -51,7 +51,7 @@ function Blogs() {
                 </div>
                 <div className='carrd'>
                     <div className='imagee'>
-                        <img src='https://cdn.cliqueinc.com/posts/286313/spring-jean-outfits-286313-1584993294396-main.700x0c.jpg' alt='HR'/>
+                        <img src='https://www.wallpapertip.com/wmimgs/44-442882_laddu-gopal-wallpaper.jpg' alt='HR'/>
                     </div>
                     <div className='contentt'>
                         <h1>Dress | My Blog</h1>
@@ -66,11 +66,10 @@ function Blogs() {
                     </div>
                 </div>
             </div>
-            
             <div className='containerr2'>
                 <div className='carrd'>
                     <div className='imagee'>
-                        <img src='https://img.faballey.com/images/Product/DRS03361Z/3.jpg' alt='HR'/>
+                        <img src='https://www.wallpapertip.com/wmimgs/44-442882_laddu-gopal-wallpaper.jpg' alt='HR'/>
                     </div>
                     <div className='contentt'>
                         <h1>Dress | My Blog</h1>
@@ -86,7 +85,7 @@ function Blogs() {
                 </div>
                 <div className='carrd'>
                     <div className='imagee'>
-                        <img src='https://www.brightontheday.com/wp-content/uploads/2017/12/look2-38.jpg' alt='HR'/>
+                        <img src='https://www.wallpapertip.com/wmimgs/44-442882_laddu-gopal-wallpaper.jpg' alt='HR'/>
                     </div>
                     <div className='contentt'>
                         <h1>Dress | My Blog</h1>
@@ -102,7 +101,7 @@ function Blogs() {
                 </div>
                 <div className='carrd'>
                     <div className='imagee'>
-                        <img src='https://cdn.cliqueinc.com/posts/286313/spring-jean-outfits-286313-1584993294396-main.700x0c.jpg' alt='HR'/>
+                        <img src='https://www.wallpapertip.com/wmimgs/44-442882_laddu-gopal-wallpaper.jpg' alt='HR'/>
                     </div>
                     <div className='contentt'>
                         <h1>Dress | My Blog</h1>
@@ -126,11 +125,18 @@ function Blogs() {
                 <div className='rcard3'>
                 <span><Link to='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</Link></span>
                 </div>
-                
             </div>
             <Footer/>
+            <div className="popUp">
+                <div className="popUpcontent">
+                    <div>
+                        <div className="headerPopup">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
-
 export default Blogs

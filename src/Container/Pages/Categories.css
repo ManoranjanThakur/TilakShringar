@@ -241,3 +241,75 @@
     margin-left: 6.015vw;
     font:normal normal normal 2.489vw/3.734vw Poppins;
 }
+
+@media (max-width:700px){
+    .shop{
+        margin-top: 1vw;
+    }
+        .headlinee{
+            margin-top:2.143vw;
+            margin-left:6.286vw;
+            font: normal normal normal 2.562vw/3.880vw Poppins;
+        }
+    .cardsl1{
+        margin-left:8vw;
+    }
+    .card1{
+        width:25vw; 
+        height:33vw;
+    }
+    .card1 span{
+        margin-top:28vw;
+        margin-left:3.466vw;
+        width:17.810vw;
+        height:2.903vw;
+        font: normal normal normal 1.429vw/2.286vw Poppins;
+    }
+    .card1:hover #text1{
+        margin-top:24.742vw;
+        margin-left:0.4vw;
+        width:24.25vw;
+        height:4vw;
+        font: normal normal bold 1.8577vw/2.9718vw Poppins;
+
+    }
+    .card2{
+        width:25vw; 
+        height:33vw;
+    }
+    .card2 span{
+        margin-top:28vw;
+        margin-left:3.466vw;
+        width:17.810vw;
+        height:2.903vw;
+        font: normal normal normal 1.429vw/2.286vw Poppins;
+    }
+    .card2:hover #text2{
+        margin-top:24.742vw;
+        margin-left:0.4vw;
+        width:24.25vw;
+        height:4vw;
+        font: normal normal bold 1.8577vw/2.9718vw Poppins;
+
+    }
+    .card3{
+        width:25vw; 
+        height:33vw;
+    }
+    .card3 span{
+        margin-top:28vw;
+        margin-left:3.466vw;
+        width:17.810vw;
+        height:2.903vw;
+        font: normal normal normal 1.429vw/2.286vw Poppins;
+    }
+    .card3:hover #text3{
+        margin-top:24.742vw;
+        margin-left:0.4vw;
+        width:24.25vw;
+        height:4vw;
+        font: normal normal bold 1.8577vw/2.9718vw Poppins;
+
+    }
+    
+}

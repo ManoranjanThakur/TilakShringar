@@ -57,18 +57,20 @@ function Cart() {
             <div className='checkoutt'>
                 <span>Checkout : Rs. 1200/-</span>
             </div>
-            <div className='billl'>
-                <p>Address</p>
-                <div className='addresss'>
-                    <p>Address Line 1</p>
-                    <p>Address Line 2</p>
-                    <p>Address Line 3</p>
+            <div className="Shadow">
+                <div className='billl'>
+                    <p>Address</p>
+                    <div className='addresss'>
+                        <p>Address Line 1</p>
+                        <p>Address Line 2</p>
+                        <p>Address Line 3</p>
+                    </div>
+                    <p className='changeadd'>Change</p>
                 </div>
-                <p className='changeadd'>Change</p>
-            </div>
-            <div className='contactno'>
-                    <p>Contact Number</p>
-                    <span>9871xxxxx5</span>
+                <div className='contactno'>
+                        <p>Contact Number</p>
+                        <span>9871xxxxx5</span>
+                </div>
             </div>
             <hr id='linee'></hr>
             <div className='cardss'>

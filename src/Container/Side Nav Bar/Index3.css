@@ -51,3 +51,8 @@
     font: normal normal normal 1.0vw/1.4vw Poppins; 
     color:#ADADAD;
 }
+@media (max-width:700px){
+    .sidenvbar{
+        display:none;
+    }
+}
