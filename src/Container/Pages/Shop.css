@@ -391,7 +391,25 @@
 
     .product1 {
         margin-left: 3.286vw;
+        width: 31.429vw;
+        height: 29.429vw;
     }
 
-    
+    .p1info {
+        margin-left: 3.286vw;
+
+    }
+
+    #product1i {
+        width: 31.429vw;
+        height: 6.286vw;
+        font: normal normal normal 2.143vw/3.286vw Poppins;
+    }
+
+    #price1 {
+        width: 222px;
+        height: 19px;
+        font: normal normal normal 13px/20px Poppins;
+    }
+
 }
