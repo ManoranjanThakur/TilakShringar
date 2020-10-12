@@ -7,25 +7,25 @@
   grid-template-rows: 4.539vw 1.684vw 17.130vw 18.594vw;
 }
 #line001{
-  margin-right:0px;
-  margin-top: 22px;
-  width: 472px;
-  margin-left: 69px;
-  border: 1px solid rgb(196, 196, 196);
+  margin-right:0;
+  margin-top: 1.611vw;
+  width: 34.553vw;
+  margin-left: 5.051vw;
+  border: 0.073vw solid rgb(196, 196, 196);
 }
 #line002{
-  margin-right:0px;
-  margin-top: 22px;
-  width: 108px;
-  margin-left: 0px;
-  border: 1px solid rgb(119, 118, 118);
+  margin-right:0;
+  margin-top: 1.611vw;
+  width: 7.906vw;
+  margin-left: 0;
+  border: 0.073vw solid rgb(119, 118, 118);
 }
 #line003{
-  margin-right:0px;
-  margin-top: 22px;
-  width: 205px;
+  margin-right:0;
+  margin-top: 1.611vw;
+  width: 15.007vw;
   margin-left: 0;
-  border: 1px solid rgb(196, 196, 196);
+  border: 0.073vw solid rgb(196, 196, 196);
 }
 .addressNo {
   margin-top: 3.001vw;

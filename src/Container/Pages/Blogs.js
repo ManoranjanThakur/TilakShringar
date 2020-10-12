@@ -4,9 +4,19 @@ import Index2 from '../../Container/Side Nav Bar/Index2';
 import Footer from '../Footer/Footer';
 import Search from '../Search Button/Search';
 import './Blog.css';
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward} from "react-icons/io";
 import { Link } from 'react-router-dom';
 
+
+function open(){
+    document.querySelector('.popUp').style.display = 'flex';
+}
+function close(){
+    document.querySelector('.popUp').style.display = 'none';
+}
 function Blogs() {
+
     return (
         <div>
             <Header/>
@@ -29,7 +39,7 @@ function Blogs() {
                             tempor invidunt ut labore et dolore magna 
                             aliquyam erat, sed diam voluptua.  
                         </p>
-                        <button>Read More</button>
+                        <button id="button" onClick={open}>Read More</button>
                         <div></div>
                     </div>
                 </div>
@@ -45,7 +55,7 @@ function Blogs() {
                             tempor invidunt ut labore et dolore magna 
                             aliquyam erat, sed diam voluptua.  
                         </p>
-                        <button>Read More</button>
+                        <button id="button" onClick={open}>Read More</button>
                         <div></div>
                     </div>
                 </div>
@@ -61,7 +71,7 @@ function Blogs() {
                             tempor invidunt ut labore et dolore magna 
                             aliquyam erat, sed diam voluptua.  
                         </p>
-                        <button>Read More</button>
+                        <button id="button" onClick={open}>Read More</button>
                         <div></div>
                     </div>
                 </div>
@@ -79,7 +89,7 @@ function Blogs() {
                             tempor invidunt ut labore et dolore magna 
                             aliquyam erat, sed diam voluptua.  
                         </p>
-                        <button>Read More</button>
+                        <button id="button" onClick={open}>Read More</button>
                         <div></div>
                     </div>
                 </div>
@@ -95,7 +105,7 @@ function Blogs() {
                             tempor invidunt ut labore et dolore magna 
                             aliquyam erat, sed diam voluptua.  
                         </p>
-                        <button>Read More</button>
+                        <button id="button" onClick={open}>Read More</button>
                         <div></div>
                     </div>
                 </div>
@@ -111,7 +121,7 @@ function Blogs() {
                             tempor invidunt ut labore et dolore magna 
                             aliquyam erat, sed diam voluptua.  
                         </p>
-                        <button>Read More</button>
+                        <button id="button" onClick={open}>Read More</button>
                         <div></div>
                     </div>
                 </div>
@@ -120,10 +130,10 @@ function Blogs() {
             <hr id='linee'></hr>
             <div className='cardss'>
                 <div className='rcardd1'>
-                <span><Link to='/shop' style={{color:'#4D4D4D'}}>SHOP</Link></span>
+                    <span><Link to='/shop' style={{color:'#4D4D4D'}}>SHOP</Link></span>
                 </div>
                 <div className='rcard3'>
-                <span><Link to='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</Link></span>
+                    <span><Link to='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</Link></span>
                 </div>
             </div>
             <Footer/>
@@ -131,12 +141,50 @@ function Blogs() {
                 <div className="popUpcontent">
                     <div>
                         <div className="headerPopup">
-                            
+                            <div className="headerTop">
+                                <div className="close" onClick={close}>+</div>
+                                <div className="previousNext">
+                                    <span className="previousButton">
+                                        <IoIosArrowBack id="backArrow"/>
+                                        <p>Previous</p>
+                                    </span>
+                                    <div className="blogLogo">LOGO</div>
+                                    <span className="nextButton">
+                                        <p>Next</p>
+                                        <IoIosArrowForward id="backArrow"/>
+                                    </span>
+                                </div>
+                            </div>
+                            <hr id="blogline"></hr>
+                            <div className="articleName">Article Name in one line and then ellipsis...</div>
+                            <div className="blogDress">
+                                <p id="dressName">Dresses</p>
+                                <p id="dressDate">2nd August, 2020 </p>
+                            </div>
                         </div>
+                        <div className="blogImage1">
+                          <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=840&q=80" alt="RELOAD"></img>
+                        </div>
+                        <p className="mainHeading1">Any main heading can be in bold.</p>
+                        <p className="paraOne">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br/>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br/>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br/>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+                        </p>
+                        <div className="blogImage2">
+                            <img src="https://images.unsplash.com/photo-1526749837599-b4eba9fd855e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="reload"></img>
+                        </div>
+                        <p className="mainHeading2">Any main heading can be in bold.</p>
+                        <p className="paraTwo">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br/>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>      
+
+
+
     )
-}
+}  
 export default Blogs
