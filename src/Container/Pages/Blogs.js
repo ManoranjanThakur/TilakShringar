@@ -24,7 +24,7 @@ function Blogs() {
             <div className='shop'>
                 < Search />
             </div>
-            <h2 className='headlinee'>our blogs...</h2>
+            <h2 className='blogHeadline'>our blogs...</h2>
             <div className='containerr'>
                 <div className='containerr1'>
                 <div className='carrd'>

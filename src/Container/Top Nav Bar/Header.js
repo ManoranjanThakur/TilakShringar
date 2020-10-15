@@ -69,7 +69,7 @@ const Header = () =>{
                     <div id="hamburgline3"/>
                 </StyledBurger>
                 <div className='hamburg' >
-                    <Link to='/' style={{color:'#4D4D4D'}}><ul className="left"></ul></Link>
+                    <Link to='/' style={{color:'#4D4D4D'}}><ul className="left"><img src='02-01.png'alt='HR'/></ul></Link>
                     <hr id='navlineee'></hr>
                     <ul className="mid">
                         <li><Link to='/shop' style={{color:'#4D4D4D'}}>Shop</Link></li>

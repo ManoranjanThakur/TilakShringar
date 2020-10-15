@@ -1,0 +1,176 @@
+#billingLine1 {
+    width: 202px;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-right: 0;
+    border: 2px solid #cdcdcd;
+  }
+  
+  #billingLine2 {
+    width: 108px;
+    border: 2px solid #4d4d4d;
+    margin-right: 0;
+    margin-left: 0px;
+    margin-top: 0;
+  }
+  #billingLine3 {
+    width: 808px;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-right: 0;
+    border: 2px solid #cdcdcd;
+  }
+  
+  .SearchBilling {
+    width: 1088px;
+    height: 40px;
+    margin-top: 32px;
+    margin-left: 87px;
+    border: 1px solid coral;
+  }
+  .billingCols {
+    width: 1062px;
+    height: 21px;
+    margin-top: 24px;
+    margin-left: 19px;
+    display: flex;
+  }
+  .serialNo {
+    width: 40px;
+    height: 21px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  .orderIdBill {
+    width: 81px;
+    height: 21px;
+    margin-left: 41px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  .orderDateBill {
+    width: 102px;
+    height: 21px;
+    margin-left: 41px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  .orderStatusBill {
+    width: 47px;
+    height: 21px;
+    margin-left: 52px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  .orderQuantityBill {
+    width: 77px;
+    height: 21px;
+    margin-left: 56px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  .orderUserType {
+    width: 73px;
+    height: 21px;
+    margin-left: 32px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  .orderNameBill {
+    width: 45px;
+    height: 21px;
+    margin-left: 47px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  .orderTotalAmount {
+    width: 101px;
+    height: 21px;
+    margin-left: 54px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  
+  .orderPaymentMethod {
+    width: 129px;
+    height: 21px;
+    margin-left: 29px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  .personBilldetail {
+    width: 1013px;
+    height: 525px;
+    border: 1px solid slateblue;
+    margin-left: 34px;
+  }
+  
+  .person1details {
+    width: 1012px;
+    height: 21px;
+    display: flex;
+  }
+  .oneSerial {
+    width: 8px;
+    height: 21px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #8d8d8d;
+  }
+  .oneId {
+    margin-left: 67px;
+    width: 56px;
+    height: 21px;
+    text-decoration: underline;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+  }
+  .oneDate {
+      margin-left: 62px;
+      width: 91px;
+      height: 21px;
+      font: normal normal normal 15px/23px Poppins;
+      color: #8d8d8d;
+  }
+  .oneStatus {
+      margin-left: 48px;
+    width: 70px;
+    height: 21px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #13c200;
+  }
+  .oneQuantity {
+    font: normal normal normal 15px/23px Poppins;
+    color: #8d8d8d;
+    margin-left: 64px;
+    width: 14px;
+    height: 21px;
+  }
+  .oneUsertype {
+    width: 74px;
+    height: 21px;
+    margin-left: 71px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #8d8d8d;
+  }
+  .oneName {
+    width: 91px;
+    height: 21px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #8d8d8d;
+    margin-left: 33px;
+  }
+  .oneTotal {
+    width: 59px;
+    height: 21px;
+    font: normal normal normal 15px/23px Poppins;
+    color: #4d4d4d;
+    margin-left: 34px;
+  }
+  .onePayment {
+      margin-left: 79px;
+      width: 90px;
+      height: 21px;
+      font: normal normal normal 15px/23px Poppins;
+      color: #8d8d8d;
+  }
+  

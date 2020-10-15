@@ -1,23 +1,43 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Index2.css'
 import { FaPhoneAlt } from "react-icons/fa";
 import { AiOutlineClockCircle} from "react-icons/ai"
 import { GrMail} from "react-icons/gr";
-function Index2() {
+import {useSelector,useDispatch} from 'react-redux';
+import {getAllCategory} from '../../actions'
+
+
+const Index2= (props) => {
+    const category = useSelector(state => state.category)
+    const dispatch = useDispatch();
+    useEffect(() => {
+      dispatch(getAllCategory());
+    },[]);
+    const renderCategories = (categories) => {
+        let myCategories = [];
+        for (let category of categories){
+          myCategories.push(
+            <li key = {category.name}>
+             {
+               category.parentId?<a href={category.slug}>{category.name}</a>:
+               <span>{category.name}</span>
+             }
+            </li>
+          )
+        }
+        return myCategories;
+      }
     return (
             <div className="sidenavbar">
+                
                 <div className="sidetop">CATEGORY -
-                     <li>Dresses</li>
-                     <li>Jewellery</li>
-                     <li>Ornaments</li>
-                     <li>Bed</li>
+                    {category.categories.length>0? renderCategories(category.categories):null}
                 </div>
                 <div className="sidemid">
                      <span>ELEVATOR PITCH OF TILAK SHRINGAR -</span>
-                        <span>Lorem ipsum dolor sit amet,
-                        consetetur sadipscing elitr,
-                        sed diam nonumy eirmod tempor
-                        invidunt ut labore et dolore magna aliquyam
+                        <span>If you want to experience the best online shopping experience for Krishna Dresses, Laddu Gopal Dresses, Radha Krishna Dresses, Pooja Ghar Items Laddu Gopal Accessories, and Ornaments like Mukut, Bansuri, and etcetera. 
+                         We are the ultimate destination for God Dresses with a wide range of Lord Krishna related merchandise. As with evolving fashion, we need to redefine the style of our beloved Makhan Chor with our Treasure-trove of trendy products.
+
                         </span>
                 </div>
                 <div className="sidebottom">

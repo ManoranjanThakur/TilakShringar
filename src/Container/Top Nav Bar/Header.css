@@ -17,12 +17,20 @@
     width:69.421vw;
 }
 .left {
-    display: flex;
+    position: relative;
     margin-top:1.757vw;
     margin-left: 4.478vw;
     height: 2.416vw;
     width: 7.247vw;
     background-color: #CDCDCD;
+}
+.left img{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 #navlineee{
     visibility:hidden;

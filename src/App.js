@@ -14,6 +14,7 @@ import Profile from './Container/Pages/Profile';
 import myProfile from './Container/Pages/myProfile';
 import Address from './Container/Pages/Address';
 import Admin from './Container/Pages/Admin';
+import AdminBilling from './Container/Pages/AdminBilling';
 function App() {
 
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/address" component={Address}></Route>
         <Route path="/myprofile" component={myProfile}></Route>
         <Route path="/admin" component={Admin}></Route>
+        <Route path="/adminbilling" component={AdminBilling}></Route>
         </Switch>
     </div>
     </Router>
