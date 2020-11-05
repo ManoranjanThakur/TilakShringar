@@ -37,3 +37,14 @@
     color: #8D8D8D;
     font: normal normal normal 1.098vw/1.684vw Poppins;
 }
+.editProfile1{
+    position: absolute;
+    -webkit-position: sticky;
+    width: 100vw;
+    height: 165vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    z-index: 1046;
+    display: none;
+    margin-left: -33.089vw;
+}

@@ -17,30 +17,20 @@ function About() {
                 <p>The address will be in maximum 3 lines and it will be aligned left always.</p>
             </div>
             <h2 className='headline'>about us...</h2>
-            <div className='scards'>
-                {/* <div className='scard1'>
-                    <div className='scard1box'></div>
-                        <h4>WHO IS "NAME OF FOUNDER": </h4>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                    </div>
-                <div className='scard2'>
-                    <div className='scard2box'></div>
-                        <h4>WHO IS "NAME OF FOUNDER": </h4>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                </div>
-                <div className='rightt'>
-                    <h3>WHEN DID THIS IDEA CAME?: </h3>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-                    </div> */}
+            <div className="imageAboutUs">
+                <img src="https://cdn.wallpapersafari.com/64/18/5odw84.jpg" alt=""></img>
             </div>
-            <div className="aboutUsDetails">
-                <p className="aboutUsParaHeading">WHEN DID THIS IDEA CAME?</p>
-                <p className="aboutUsPara"> We are a group of Lord Krishna devotees who aim to bring you the latest designer Krishna clothes and accessories. We commenced our journey in 2013, seven years back, and employed housewives in Gandhinagar, Gujrat to make them feel empowered. This financial independence for housewives is our giving back to society. Each piece of cloth, accessory, ornament, and idols is crafted with at most dedication and devotion.  
-                By sitting in your comfort zone, at your home you get mesmerizing artifacts to dress up your Laddu Gopal and Radha Rani with elegance.
-                You can view different products at one place on our user-friendly interface to with high-resolution images to make your hassle-free shopping experience worthwhile
-</p>
+            <p className="aboutUsPara">We are a group of Lord Krishna devotees who aim to bring you the latest designer Krishna clothes and accessories. We commenced our journey in 2013, seven years back, and employed housewives in Gandhinagar, Gujrat to make them feel empowered. This financial independence for housewives is our giving back to society. Each piece of cloth, accessory, ornament, and idols is crafted with at most dedication and devotion. By sitting in your comfort zone, at your home you get mesmerizing artifacts to dress up your Laddu Gopal and Radha Rani with elegance. You can view different products at one place on our user-friendly interface to with high- resolution images to make your hassle-free shopping experience worthwhile.</p>
+            <p className="memoryOf">in the memory of...</p>
+            <div className="memoryImage">
+                <img src="https://i.pinimg.com/originals/98/81/02/988102527faa21e51a8ba5a9406bf6dd.jpg" alt=""></img>
             </div>
-            
+            <div className="yearMemory">
+                <p className="nameBold">NAME IN BOLD</p>
+                <p className="yearofMemory"> (1957-2020)</p>
+            </div>
+
+
             <h2 className='work'>our work...</h2>
             <div className="grid">
                 <div className='gcard1'></div>
