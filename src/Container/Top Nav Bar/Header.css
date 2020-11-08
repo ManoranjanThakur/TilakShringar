@@ -17,19 +17,20 @@
     width:69.421vw;
 }
 .left {
+    padding:0;
     position: relative;
-    margin-top:1.757vw;
+    margin-top:0;
     margin-left: 4.478vw;
-    height: 2.416vw;
+    height:6vw;
     width: 7.247vw;
-    background-color: #CDCDCD;
+    
 }
 .left img{
     top:0;
     left:0;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height:6.000vw;
     display: block;
 }
 #navlineee{
@@ -148,10 +149,14 @@
     .left{
         flex-flow:column nowrap;
         margin-top:3.429vw;
-        margin-left: 7.143vw;
+        margin-left: 10.2vw;
         height: 9vw;
         width: 24vw;
         
+    }
+    .left img{
+        height:11vw;
+        width:16vw;
     }
     #navlineee{
         margin-top:5.500vw;

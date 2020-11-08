@@ -271,48 +271,73 @@
 .gcard1{
     width:17.936vw;
     height:17.789vw;
-    background-color: #8D8D8D;
+}
+.gcard1 img{
+    width: 100%;
+    height: 100%;
 }
 .gcard2{
     margin-top:1.537vw;
     width:17.936vw;
     height:17.789vw;
-    background-color: #8D8D8D;
+    
+}
+.gcard2 img{
+    width: 100%;
+    height: 100%;
 }
 .gcard3{
     margin-top:-37.116vw;
     margin-left:18.960vw;
     width:17.936vw;
     height:37.116vw;
-    background-color: #8D8D8D;
+}
+.gcard3 img{
+    width: 100%;
+    height: 100%;
 }
 .gcard4{
     margin-top:-37.116vw;
     margin-left:37.994vw;
     width:37.116vw;
-    height:17.936vw;
-    background-color: #8D8D8D;
+
+}
+.gcard4 img{
+    width: 100%;
+    height: 100%;
 }
 .gcard5{
     margin-top:-17.789vw;
     margin-left:37.994vw;
     width:17.862vw;
     height:17.789vw;
-    background-color: #8D8D8D;
+
+}
+.gcard5 img{
+    width: 100%;
+    height: 100%;
 }
 .gcard6{
     margin-top:-17.789vw;
     margin-left:56.955vw;
     width:17.862vw;
     height:17.789vw;
-    background-color: #8D8D8D;
+
+}
+.gcard6 img{
+    width: 100%;
+    height: 100%;
 }
 .gcard7{
     margin-top:-37.116vw;
     margin-left:76.354vw;
     width:17.862vw;
     height:37.116vw;
-    background-color: #8D8D8D;
+
+}
+.gcard7 img{
+    width: 100%;
+    height: 100%;
 }
 .cards{
     display:flex;

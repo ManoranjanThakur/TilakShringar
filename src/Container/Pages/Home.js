@@ -45,13 +45,13 @@ function Home() {
             </div>
             <h2 className='work'>our work...</h2>
             <div className="grid">
-                <div className='gcard1'></div>
-                <div className='gcard2'></div>
-                <div className='gcard3'></div>
-                <div className='gcard4'></div>
-                <div className='gcard5'></div>
-                <div className='gcard6'></div>
-                <div className='gcard7'></div>
+                <div className='gcard1'><img src={require("../images/gcard1.jpg")}></img></div>
+                <div className='gcard2'><img src={require("../images/gcard2.jpg")}></img></div>
+                <div className='gcard3'><img src={require("../images/gcard3.jpg")}></img></div>
+                <div className='gcard4'><img src={require("../images/gcard4.jpg")}></img></div>
+                <div className='gcard5'><img src={require("../images/gcard5.jpg")}></img></div>
+                <div className='gcard6'><img src={require("../images/gcard6.jpg")}></img></div>
+                <div className='gcard7'><img src={require("../images/gcard7.jpg")}></img></div>
             </div>
             <div className='cards'>
                 <div className='rcard1'>

@@ -5,6 +5,10 @@ import Search from '../Search Button/Search';
 import Footer from '../Footer/Footer';
 import'./Categories.css';
 import { Link } from 'react-router-dom';
+const cards = {
+    name:"Choli and Duppata",
+    src:"https://i.pinimg.com/originals/98/81/02/988102527faa21e51a8ba5a9406bf6dd.jpg"
+}
 function Categories() {
     return (
         <div>
@@ -15,25 +19,25 @@ function Categories() {
             </div>
             <h2 className='headlinee'>our categories..</h2>
             <div className='cardsl1'>
-               <div className='card1'>
-                   <span id='text1'>Choli and Duppata</span>
+               <div className="card1"><img src={cards.src} alt='HR'/>
+                   <span id='text1'>{cards.name}</span>
                </div>
-               <div className='card2'>
-                   <span id='text2'>Choli and Duppata</span>
+               <div className='card2'><img src={cards.src} alt='HR'/>
+                   <span id='text2'>{cards.name}</span>
                </div>
-               <div className='card3'>
-                   <span id='text3'>Choli and Duppata</span>
+               <div className='card3'><img src={cards.src} alt='HR'/>
+                   <span id='text3'>{cards.name}</span>
                </div>
             </div>
             <div className='cardsl2'>
-               <div className='card4'>
-                   <span id='text4'>Choli and Duppata</span>
+               <div className='card4'><img src={cards.src} alt='HR'/>
+                   <span id='text4'>{cards.name}</span>
                </div>
-               <div className='card5'>
-                   <span id='text5'>Choli and Duppata</span>
+               <div className='card5'><img src={cards.src} alt='HR'/>
+                   <span id='text5'>{cards.name}</span>
                </div>
-               <div className='card6'>
-                   <span id='text6'>Choli and Duppata</span>
+               <div className='card6'><img src={cards.src} alt='HR'/>
+                   <span id='text6'>{cards.name}</span>
                </div>
             </div>
             <div className='abqucard'>
