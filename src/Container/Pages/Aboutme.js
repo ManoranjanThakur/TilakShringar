@@ -48,7 +48,7 @@ function Aboutme() {
                         <input type="text" id="editInput3" style={{color:"#2D2D2D"}} placeholder="Phone Number"></input>
                     </div>
                     <div className="saveExitButton">
-                        <button id="cancelEditButton">CANCEL</button>
+                        <button id="cancelEditButton"  onClick={closeEdit}>CANCEL</button>
                         <button id="saveEditButton">SAVE & EXIT</button>
 
                     </div>

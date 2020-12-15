@@ -3,14 +3,14 @@ import Header from '../../Container/Top Nav Bar/Header';
 import Index2 from '../../Container/Side Nav Bar/Index2';
 import Footer from '../Footer/Footer';
 import './Query.css';
-import { Link } from 'react-router-dom';
 
 function Query() {
     return (
         <div>
             <Header/>
             <Index2/>
-            <h2 className='headlineeee'>ask here...</h2>
+            <h2 className='queryheadlineeee'>ask here...</h2>
+            <div className="textView">Loving our products or have a question to ask,write to us and we will revert in less than 24 hours. We accept all kinds of questions and customer reviews.You can also write a mail to the given email addresses separately.</div>
             <div className='details'>
                 <div className='userdetails'>
                     <p>Fill in the details</p>
@@ -38,10 +38,10 @@ function Query() {
             <hr className='quend'/>
             <div className='cardss'>
                 <div className='rcardd1'>
-                <span><Link to='/shop' style={{color:'#4D4D4D'}}>SHOP</Link></span>
+                <span><a href='/shop' style={{color:'#4D4D4D'}}>SHOP</a></span>
                 </div>
                 <div className='rcard3'>
-                <span><Link to='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</Link></span>
+                <span><a href='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</a></span>
                 </div>
                 
             </div>

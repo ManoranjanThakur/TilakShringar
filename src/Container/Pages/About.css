@@ -1,6 +1,8 @@
 .bheadandadd {
-  margin-top: -73.206vw;
+  /* margin-top: -73.206vw; */
+  margin-top: -76.206vw;
   display: flex;
+  margin-left: 66vw;
 }
 
 .bhead {
@@ -9,10 +11,14 @@
   justify-content: center;
   margin-left: 33.968vw;
   width: 32.138vw;
-  height: 6.076vw;
-  background: #adadad 0% 0% no-repeat padding-box;
+  /* height: 6.076vw; */
+  height: 16.076vw;
   font: normal normal normal 3.001vw/4.466vw Poppins;
   color: #ffffff;
+}
+.bhead img {
+  height: 100%;
+  width: 100%;
 }
 #loc {
   margin-left: 2.965vw;
@@ -27,25 +33,33 @@
   font: normal normal normal 1.098vw/1.684vw Poppins;
   color: #cdcdcd;
 }
-.headline {
-  margin-top: 3.953vw;
+.aboutheadline {
+  /* margin-top: 3.953vw; */
+  margin-top: 0.953vw;
+  width: 21vw;
   margin-left: 21.889vw;
-  font: normal normal normal 2.562vw/3.88vw Poppins;
-  color: #4d4d4d;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 .imageAboutUs {
-  width: 44.290vw;
-  height: 21.742vw;
-  margin-top: 1.171vw;
-  margin-left: 33.821vw;
+  width: 41.29vw;
+    height: 21.742vw;
+    margin-top: 1.171vw;
+    margin-left: 35.821vw;
 }
 
 .imageAboutUs img {
   height: 100%;
   width: 100%;
-  box-shadow: 0 0.220vw 0.439vw #00000029;
-  border-radius: 1.464vw;
+  box-shadow: 0 0.22vw 0.439vw #00000029;
+  border-radius: 1.464vw;object-fit: cover;
+  object-position: top;
+
 }
 .aboutUsPara {
   width: 66.984vw;
@@ -59,12 +73,21 @@
 
 .memoryOf {
   margin-left: 21.889vw;
+  margin-bottom: 0;
   margin-top: 2.928vw;
-  width: 16.837vw;
-  height: 2.562vw;
+  /* width: 16.837vw;
+  height: 2.562vw; */
+  width: 40.837vw;
+  height: 6.562vw;
   text-align: left;
-  font: normal normal normal 1.830vw/2.782vw Poppins;
-  color: #4d4d4d;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  /* font: normal normal normal 1.830vw/2.782vw Poppins;
+  color: #4d4d4d; */
 }
 
 .memoryImage {
@@ -77,13 +100,13 @@
 .memoryImage img {
   width: 100%;
   height: 100%;
-  border-radius: 1.464vw;
+  border-radius: 1.464vw; object-fit: cover;
 }
 
 .yearMemory {
   margin-left: 22.474vw;
   width: 66.984vw;
-  height: 3.660vw;
+  height: 3.66vw;
   margin-top: 1.171vw;
   text-align: center;
   display: grid;
@@ -91,9 +114,9 @@
 }
 
 .nameBold {
-  width: 8.785vw;
+  width: 9.285vw;
   height: 1.757vw;
-  margin-left: 29.063vw;
+  margin-left: 29vw;
   font: normal normal bold 1.245vw/1.903vw Poppins;
   color: #2d2d2d;
 }
@@ -106,67 +129,19 @@
   color: #2d2d2d;
 }
 
-.work {
+.work1 {
   margin-left: 21.669vw;
-  margin-top: 7.394vw;
-  width: 12.548vw;
-  height: 3.587vw;
-  color: #4d4d4d;
-  font: normal normal normal 2.562vw/3.88vw Poppins;
+  margin-top: 6.394vw;
+  width: 22.548vw;
+  height: 5.587vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
-.grid {
-  display: grid;
-  margin-top: 1.464vw;
-  margin-left: 3.075vw;
-  height: 37.116vw;
-  width: 93.485vw;
-}
-.gcard1 {
-  width: 17.936vw;
-  height: 17.789vw;
-  background-color: #8d8d8d;
-}
-.gcard2 {
-  margin-top: 1.537vw;
-  width: 17.936vw;
-  height: 17.789vw;
-  background-color: #8d8d8d;
-}
-.gcard3 {
-  margin-top: -37.116vw;
-  margin-left: 18.96vw;
-  width: 17.936vw;
-  height: 37.116vw;
-  background-color: #8d8d8d;
-}
-.gcard4 {
-  margin-top: -37.116vw;
-  margin-left: 37.994vw;
-  width: 37.116vw;
-  height: 17.936vw;
-  background-color: #8d8d8d;
-}
-.gcard5 {
-  margin-top: -17.789vw;
-  margin-left: 37.994vw;
-  width: 17.862vw;
-  height: 17.789vw;
-  background-color: #8d8d8d;
-}
-.gcard6 {
-  margin-top: -17.789vw;
-  margin-left: 56.955vw;
-  width: 17.862vw;
-  height: 17.789vw;
-  background-color: #8d8d8d;
-}
-.gcard7 {
-  margin-top: -37.116vw;
-  margin-left: 76.354vw;
-  width: 17.862vw;
-  height: 37.116vw;
-  background-color: #8d8d8d;
-}
+
 .cards {
   display: flex;
   margin-top: 7.321vw;

@@ -34,22 +34,19 @@ const Index2= (props) => {
                     {category.categories.length>0? renderCategories(category.categories):null}
                 </div>
                 <div className="sidemid">
-                     <span>ELEVATOR PITCH OF TILAK SHRINGAR -</span>
-                        <span>If you want to experience the best online shopping experience for Krishna Dresses, Laddu Gopal Dresses, Radha Krishna Dresses, Pooja Ghar Items Laddu Gopal Accessories, and Ornaments like Mukut, Bansuri, and etcetera. 
+                        <span>Experience the best online shopping experience for Krishna Dresses, Laddu Gopal Dresses, Radha Krishna Dresses, Pooja Ghar Items Laddu Gopal Accessories, and Ornaments like Mukut, Bansuri, and etcetera. 
                          We are the ultimate destination for God Dresses with a wide range of Lord Krishna related merchandise. As with evolving fashion, we need to redefine the style of our beloved Makhan Chor with our Treasure-trove of trendy products.
 
                         </span>
                 </div>
-                <div className="sidebottom">
-                    <span>For any query: <br/>
-                        <FaPhoneAlt/>  Contact : 9876543210 <br/>
-                        <br/>
-                        <AiOutlineClockCircle/>  Working Hours: 8AM-8PM <br/>
-                        <br/>
-                        <GrMail/> Email Address - 
-                        Examplewebsite@gmail.com</span>
-                </div>
-            </ div>        
+                {/* <div className="sidebottom1">
+                    <p>For any query: </p>
+                    <p> <FaPhoneAlt/>  Contact : 9876543210 </p>
+                    <p><AiOutlineClockCircle/>  Working Hours: 8AM-8PM </p>
+                    <p><GrMail/> Email Address - 
+                        Examplewebsite@gmail.com</p>
+                </div> */}
+            </div>        
     )
 }
 

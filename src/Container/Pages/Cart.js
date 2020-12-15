@@ -1,88 +1,86 @@
 import React from 'react'
-import Header from '../../Container/Top Nav Bar/Header';
-import Index2 from '../../Container/Side Nav Bar/Index2';
-import Search from '../Search Button/Search';
-import Footer from '../Footer/Footer';
-import {TiHeartFullOutline} from "react-icons/ti";
-import'./Cart.css';
-import { Link } from 'react-router-dom';
-var money=600;
+import Header from "../../Container/Top Nav Bar/Header";
+import Footer from "../Footer/Footer";
+import './Cart.css'
+
 function Cart() {
     return (
         <div>
-            <Header/>        
-            <Index2/>
-            <div className='shop'>
-                <Search/>
+            <Header />
+            <div className="paymentWay">
+                <p className="mycartPayment">My cart</p>
+                <hr className="mycartLineTo"></hr>
+                <p className="orderPaymentChange">Order details</p>
+                <hr className="orderSummaryPageLine"></hr>
+                <p className="orderSummaryfinalPayment">Payment</p>
             </div>
-            <h2 className='headlinee'>my cart...</h2>
-            <div className='producttt1'>
-                <span>1</span>
-                <div className='imgblock'></div>
-                <div className='prodescription'>
-                    <div className='nameandwishbox'>
-                        <p>Product Name will be written in maximum of two lines</p>
-                        <div className="wishlisttbox"><TiHeartFullOutline id="wishlistt"/></div> 
+            <p className="myCartHeadline">my cart...</p>
+            <div className="myCartMainBox">
+                <div className="CartBox">
+                    <p className="itemNoHeading">2 Items</p>
+                    <div className='givenOrderNo1'>
+                        <div className='imageoftheProduct1'></div>
+                        <div className='detailsoftheProduct1'>
+                            <p className='nameoftheProductGiven'>Product Name will be written in maximum of two lines</p>
+                            <p className='priceoftheGivenProduct'>Rs. 300/-</p>
+                            <div className='tagsOfGivenProduct'>
+                                <p style={{ color: '#2D2D2D', width: '2.928vw', height: '1.537vw' }}>Tags:</p>
+                                <p style={{ color: '#ADADAD', width: '22.548vw' }}>choli, white, small</p>
+                            </div>
+                            <div className='descriptionofGivenProduct'>
+                                <p style={{ color: '#2D2D2D', height: '1.537vw' }}>Description:</p>
+                                <p style={{ color: '#ADADAD' }}>Lorem ipsum dolor sit amet, consetetur </p>
+                            </div>
+
+                        </div>
                     </div>
-                    <div id='moneyy' >Rs. {money}/-</div>
-                    <div className='tagbox'>
-                        <span>Tags:</span>
-                        <p>choli, white, small</p>
-                    </div>
-                    <div className='descriptionboxx'>
-                        <span>Description:</span>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                    <div className='givenOrderNo2'>
+                        <div className='imageoftheProduct1'></div>
+                        <div className='detailsoftheProduct1'>
+                            <p className='nameoftheProductGiven'>Product Name will be written in maximum of two lines</p>
+                            <p className='priceoftheGivenProduct'>Rs. 300/-</p>
+                            <div className='tagsOfGivenProduct'>
+                                <p style={{ color: '#2D2D2D', width: '2.928vw', height: '1.537vw' }}>Tags:</p>
+                                <p style={{ color: '#ADADAD', width: '22.548vw' }}>choli, white, small</p>
+                            </div>
+                            <div className='descriptionofGivenProduct'>
+                                <p style={{ color: '#2D2D2D', height: '1.537vw' }}>Description:</p>
+                                <p style={{ color: '#ADADAD' }}>Lorem ipsum dolor sit amet, consetetur </p>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className='producttt1'>
-                <span>2</span>
-                <div className='imgblock'></div>
-                <div className='prodescription'>
-                    <div className='nameandwishbox'>
-                        <p>Product Name will be written in maximum of two lines</p>
-                        <div className="wishlisttbox"><TiHeartFullOutline id="wishlistt"/></div> 
+                <div className='referenceCodeBox'>
+                    <p className='ReferenceCodeHeading'>Reference Code</p>
+                    <div className='RefCodeBoxWithButton'>
+                        <input className='RefCodeInput' type='text' placeholder='Enter Here'></input>
+                        <button className='RefButton'>APPLY</button>
                     </div>
-                    <div id='moneyy' >Rs. {money}/-</div>
-                    <div className='tagbox'>
-                        <span>Tags:</span>
-                        <p>choli, white, small</p>
+                    <div className='DiscountBox'>
+                        <p className='DiscountHeading'>Discount:</p>
+                        <p className='discountMoney'>00.00</p>
                     </div>
-                    <div className='descriptionboxx'>
-                        <span>Description:</span>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                    <div className="bagTotalPrice">
+                        <p id="bagTotal">Bag Total(in rupees):</p>
+                        <p id="bagTotalValue">600.00</p>
                     </div>
+                    <a href='/orderSummary'><button className='RefProceedButton'>Proceed</button></a>
+
                 </div>
             </div>
-            <div className='checkoutt'>
-                <span>Checkout : Rs. 1200/-</span>
-            </div>
-            <div className="Shadow">
-                <div className='billl'>
-                    <p>Address</p>
-                    <div className='addresss'>
-                        <p>Address Line 1</p>
-                        <p>Address Line 2</p>
-                        <p>Address Line 3</p>
-                    </div>
-                    <p className='changeadd'>Change</p>
-                </div>
-                <div className='contactno'>
-                        <p>Contact Number</p>
-                        <span>9871xxxxx5</span>
-                </div>
-            </div>
-            <hr id='linee'></hr>
+            <hr className='quend' />
             <div className='cardss'>
                 <div className='rcardd1'>
-                <span><Link to='/shop' style={{color:'#4D4D4D'}}>SHOP</Link></span>
+                    <span><a href='/shop' style={{ color: '#4D4D4D' }}>SHOP</a></span>
                 </div>
                 <div className='rcard3'>
-                <span><Link to='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</Link></span>
+                    <span><a href='/categories' style={{ color: '#4D4D4D' }}>CATEGORIES</a></span>
                 </div>
-                
             </div>
-            <Footer/>
+
+            <Footer />
+
         </div>
     )
 }

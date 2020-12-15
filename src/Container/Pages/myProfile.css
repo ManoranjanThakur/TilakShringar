@@ -1,92 +1,97 @@
-.profileBox2{
-    margin-left:22.474vw;
-    display: grid;
-    width:67.350vw;
-    height:38.067vw;
-    border:0.073vw solid #707070;
-    grid-template-rows: 4.539vw 1.684vw 8.641vw 2.485vw 13.915vw;
+.profileBox2 {
+  margin-left: 22.474vw;
+  display: grid;
+  width: 67.35vw;
+  height: 38.067vw;
+  border: 0.073vw solid #707070;
+  grid-template-rows: 4.539vw 1.684vw 8.641vw 2.485vw 13.915vw;
 }
-.forline{
-    width:62.958vw;
-    display:flex;
+.forline {
+  width: 62.958vw;
+  display: flex;
 }
-#line2{
-    margin-left:5.051vw;
-    margin-top:1.611vw;
-    width:7.906vw;
-    border: 0.073vw solid rgb(119, 118, 118);
+#line2 {
+  margin-left: 5.051vw;
+  margin-top: 1.611vw;
+  width: 7.906vw;
+  border: 0.073vw solid rgb(119, 118, 118);
 }
-#line3{
-    margin-left:0vw;
-    margin-top:1.611vw;
-    width:49.780vw;
-    border: 0.073vw solid rgb(196, 196, 196);
+#line3 {
+  margin-left: 0vw;
+  margin-top: 1.611vw;
+  width: 49.78vw;
+  border: 0.073vw solid rgb(196, 196, 196);
 }
-.allABoutMe{
-    margin-top: 1.459vw;
-    display:flex;
-    height:6.742vw;
-    width:62.958vw;
+.allABoutMe {
+  margin-top: 1.459vw;
+  display: flex;
+  height: 6.742vw;
+  width: 62.958vw;
 }
-.aboutText{
-    width:43.924vw;
-    margin-left:6.808vw;
-    font: normal normal normal 1.098vw/1.684vw Poppins;
-    color: #8D8D8D;
+.aboutText {
+  width: 43.924vw;
+  margin-left: 6.808vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
 }
-#aboutEdit{
-    margin-top: 0vw;
-    margin-left: 2.562vw;
-    height:2.855vw;
-    width:9.590vw;
-    background:#707070 0% 0% no-repeat padding-box;
-    box-shadow: 0vw 0.220vw 0.439vw #00000029;
-    border-radius: 0;
-    font: normal normal normal 1.098vw/1.684vw Poppins;
-    color: #FFFFFF;
-    text-decoration: none;
-    cursor:pointer;
+#aboutEdit {
+  margin-left: 2.562vw;
+  border: 0.073vw solid #cdcdcd;
+  width: 12.299vw;
+  height: 3.514vw;
+  box-shadow: 0vw 0.22vw 0.439vw #00000029;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  border: 0.073vw solid #cdcdcd;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
 }
-#aboutEnd{
-    margin-left:30.783vw;
-    width:5.836vw;
-    margin-top:2.411vw;
-    border: 0.073vw solid #CDCDCD;
+#aboutEdit:focus {
+  outline: none;
 }
-.changePassword{
-    margin-left: 5.417vw;
-    margin-top:2.671vw;
-    width:54.755vw;
-    height:11.382vw;
+#aboutEnd {
+  margin-left: 30.783vw;
+  width: 5.836vw;
+  margin-top: 2.411vw;
+  border: 0.073vw solid #cdcdcd;
+}
+.changePassword {
+  margin-left: 5.417vw;
+  margin-top: 2.671vw;
+  width: 54.755vw;
+  height: 11.382vw;
+}
+.changePassword h3 {
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.passwordEdit {
+  height: 7.308vw;
+  width: 51.245vw;
+  margin-left: 1.391vw;
+  margin-top: 2.537vw;
+}
+.passwordEdit p {
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #6d6d6d;
+}
+.passwordEdit div {
+  display: flex;
+}
+#passwordEdit {
+  margin-top: 2.599vw;
+  margin-left: 22.694vw;
+  width: 12.299vw;
+  height: 3.514vw;
+  box-shadow: 0vw 0.22vw 0.439vw #00000029;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  border: 0.073vw solid #cdcdcd;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  box-shadow: 0vw 0.22vw 0.439vw #00000029;
+}
 
-}
-.changePassword h3{
-    font: normal normal normal 1.098vw/1.684vw Poppins;
-    color: #4D4D4D;
-}
-.passwordEdit{
-    height:7.308vw;
-    width:51.245vw;
-    margin-left:1.391vw;
-    margin-top:2.537vw;
-}
-.passwordEdit p{
-    font: normal normal normal 1.098vw/1.684vw Poppins;
-    color: #6D6D6D;
-}
-.passwordEdit div{
-   display:flex;
-}
-#passwordEdit{
-    margin-top: 2.599vw;
-    margin-left: 22.694vw;
-    height:2.855vw;
-    width:9.590vw;
-    background:#707070 0% 0% no-repeat padding-box;
-    box-shadow: 0vw 0.220vw 0.439vw #00000029;
-    border-radius: 0;
-    font: normal normal normal 1.098vw/1.684vw Poppins;
-    color: #FFFFFF;
-    text-decoration: none;
-    cursor:pointer;
+#passwordEdit:focus{
+    outline: none;
 }

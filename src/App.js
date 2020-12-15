@@ -16,6 +16,11 @@ import Address from './Container/Pages/Address';
 import Admin from './Container/Pages/Admin';
 import AdminBilling from './Container/Pages/AdminBilling';
 import payment from './Container/Pages/payment';
+import orderSummary from './Container/Pages/orderSummary';
+import AdminReseller from './Container/Pages/AdminReseller';
+import ResellerOrder from './Container/Pages/ResellerOrder';
+import ResellerNotification from './Container/Pages/ResellerNotification';
+import ResellerEarning from './Container/Pages/ResellerEarning';
 function App() {
 
   return (
@@ -35,7 +40,12 @@ function App() {
         <Route path="/myprofile" component={myProfile}></Route>
         <Route path="/admin" component={Admin}></Route>
         <Route path="/adminbilling" component={AdminBilling}></Route>
+        <Route path="/adminReseller" component={AdminReseller}></Route>
         <Route path="/payment" component={payment}></Route>
+        <Route path="/orderSummary" component={orderSummary}></Route>
+        <Route path="/resellerOrder" component={ResellerOrder}></Route>
+        <Route path="/resellerEarning" component={ResellerEarning}></Route>
+        <Route path="/ResellerNotification" component ={ResellerNotification}></Route>
         </Switch>
     </div>
     </Router>

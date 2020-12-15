@@ -4,24 +4,24 @@
   width: 67.35vw;
   height: 49.816vw;
   margin-left: 22.474vw;
-  grid-template-rows: 4.539vw 1.684vw 17.130vw 18.594vw;
+  grid-template-rows: 4.539vw 1.684vw 17.13vw 18.594vw;
 }
-#line001{
-  margin-right:0;
+#line001 {
+  margin-right: 0;
   margin-top: 1.611vw;
   width: 34.553vw;
   margin-left: 5.051vw;
   border: 0.073vw solid rgb(196, 196, 196);
 }
-#line002{
-  margin-right:0;
+#line002 {
+  margin-right: 0;
   margin-top: 1.611vw;
   width: 7.906vw;
   margin-left: 0;
   border: 0.073vw solid rgb(119, 118, 118);
 }
-#line003{
-  margin-right:0;
+#line003 {
+  margin-right: 0;
   margin-top: 1.611vw;
   width: 15.007vw;
   margin-left: 0;
@@ -35,7 +35,7 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 0.073vw solid #cdcdcd;
   display: grid;
-  grid-template-rows: 7.613vw 86.6.332vw 0 ;
+  grid-template-rows: 7.613vw 86.6.332vw 0;
 }
 
 .myAddresss {
@@ -92,7 +92,7 @@
 }
 
 #addressIcon {
-  margin-left: 1.830vw;
+  margin-left: 1.83vw;
   width: 2.123vw;
   height: 2.123vw;
 }
@@ -142,15 +142,14 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 0.073vw solid #cdcdcd;
   display: grid;
-  grid-template-rows: 9.151vw 3.148vw 3.367vw  ;
-
+  grid-template-rows: 9.151vw 3.148vw 3.367vw;
 }
 
 .myaddressEdit {
   margin-top: 1.684vw;
   margin-left: 1.611vw;
   width: 41.398vw;
-  height: 7.540vw;
+  height: 7.54vw;
   display: flex;
 }
 
@@ -168,7 +167,6 @@
   margin-top: 0vw;
   width: 24.085vw;
   height: 1.537vw;
-  
 }
 
 #input1 {
@@ -217,7 +215,7 @@
 
 .contactEdit {
   display: flex;
-  margin-left: 1.830vw;
+  margin-left: 1.83vw;
   width: 41.325vw;
   height: 1.537vw;
   margin-top: 0vw;
@@ -227,18 +225,17 @@
   width: 9.736vw;
   height: 1.537vw;
   font: normal normal normal 1vw/1.3vw Poppins;
-  color: #8D8D8D;
+  color: #8d8d8d;
 }
 
 .input4 {
   font: normal normal normal 1vw/1.3vw Poppins;
   margin-left: 4.758vw;
   width: 24.085vw;
-
 }
 
 #input4 {
-  font: normal normal normal 1vw/1.3vw  Poppins;
+  font: normal normal normal 1vw/1.3vw Poppins;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
@@ -265,35 +262,37 @@
   text-align: center;
   text-decoration: underline;
   font: normal normal normal 1.098vw/1.684vw Poppins;
-  color: #C70000;
-  cursor:pointer;
+  color: #c70000;
+  cursor: pointer;
 }
-.saveButton{
+.saveButton {
   width: 10.322vw;
   height: 1.537vw;
   text-align: center;
   text-decoration: underline;
   font: normal normal normal 1.098vw/1.684vw Poppins;
-  cursor:pointer;
-  color: #8D8D8D;
+  cursor: pointer;
+  color: #8d8d8d;
 }
-.buttonAdd{
-  margin-top:2vw;
+.buttonAdd {
+  margin-top: 2vw;
   text-decoration: none;
-  border: 0.073vw solid #CDCDCD;
   width: 12.299vw;
-height: 3.514vw;
-margin-left:27.526vw;
-border-radius:0vw;
-color: #2D2D2D;
-cursor: pointer;
+  height: 3.514vw;
+  margin-left: 27.526vw;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  border: 0.073vw solid #cdcdcd;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
 }
-
-@media (max-width:700px){
-  .headlinee{
-      margin-top:2.143vw;
-      margin-left:8vw;
-      font: normal normal normal 2.562vw/3.880vw Poppins;
+.buttonAdd:focus{
+  outline:none;
+}
+@media (max-width: 700px) {
+  .headlinee {
+    margin-top: 2.143vw;
+    margin-left: 8vw;
+    font: normal normal normal 2.562vw/3.88vw Poppins;
   }
-
 }

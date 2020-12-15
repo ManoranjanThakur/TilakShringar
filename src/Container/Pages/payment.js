@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../../Container/Top Nav Bar/Header';
 import Footer from '../Footer/Footer';
 import './payment.css';
-import { Link } from 'react-router-dom';
 
 function payment() {
     return(
@@ -64,10 +63,10 @@ function payment() {
             <hr className='quend'/>
             <div className='cardss'>
                 <div className='rcardd1'>
-                <span><Link to='/shop' style={{color:'#4D4D4D'}}>SHOP</Link></span>
+                <span><a href='/shop' style={{color:'#4D4D4D'}}>SHOP</a></span>
                 </div>
                 <div className='rcard3'>
-                <span><Link to='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</Link></span>
+                <span><a href='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</a></span>
                 </div>
             </div>
 

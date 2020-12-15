@@ -1,365 +1,389 @@
 .heading {
-    width: 197px;
-    height: 49px;
-    margin-top: 94px;
-    margin-left: 139px;
-    font: normal normal normal 35px/53px Poppins;
-    color: #4D4D4D;
+  width: 25.769vw;
+  height: 6.442vw;
+  margin-top: 6.881vw;
+  margin-left: 10.176vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 .Aboutttt {
-    margin-left: 452px;
-    margin-top: 40px;
+  margin-left: 33.089vw;
+  margin-top: 2.928vw;
 }
 
 .adminBox {
-    width: 1226px;
-    height: 961px;
-    border: 1px solid #707070;
-    margin-left: 70px;
-    margin-top: 16px;
-    display: grid;
-    grid-template-rows: 60px 24px 77px 72px 655px;
+  width: 89.751vw;
+  height: 70.351vw;
+  border: 0.073vw solid #707070;
+  margin-left: 5.124vw;
+  margin-top: 1.171vw;
+  display: grid;
+  grid-template-rows: 4.392vw 1.757vw 5.637vw 5.271vw 47.950vw;
 }
 
 .adminNav {
-    width: 517px;
-    height: 28px;
-    margin-left: 69px;
-    margin-top: 32px;
-    display: flex;
+  width: 37.848vw;
+  height: 2.050vw;
+  margin-left: 5.051vw;
+  margin-top: 2.343vw;
+  display: flex;
 }
 
 .adminProducts {
-    width: 105px;
-    height: 28px;
-    font: normal normal normal 20px/30px Poppins;
-    color: #4D4D4D;
-    margin-top: 0;
-    margin-left: 0;
+  width: 7.687vw;
+  height: 2.050vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #4d4d4d;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .adminBilling {
-    width: 69px;
-    height: 28px;
-    margin-top: 0px;
-    margin-left: 123px;
-    font: normal normal normal 20px/30px Poppins;
-    color: #8D8D8D;
+  width: 5.051vw;
+  height: 2.050vw;
+  margin-top: 0;
+  margin-left: 9.004vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #8d8d8d;
 }
 
 .adminReseller {
-    width: 96px;
-    height: 28px;
-    margin-top: 0px;
-    margin-left: 123px;
-    font: normal normal normal 20px/30px Poppins;
-    color: #8D8D8D;
+  width: 7.028vw;
+  height: 2.050vw;
+  margin-top: 0;
+  margin-left: 9.004vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #8d8d8d;
 }
 
 .productLine {
-    width: 1106px;
-    display: flex;
-    margin-left: 69px;
-    margin-top: 24px;
-    height: 0;
+  width: 80.966vw;
+  display: flex;
+  margin-left: 5.051vw;
+  margin-top: 1.757vw;
+  height: 0;
 }
 
 #adminLine2 {
-    width: 108px;
-    border: 2px solid #4D4D4D;
-    margin-right: 0;
-    margin-left: 0;
-    margin-top: 0;
-
+  width: 7.906vw;
+  border:2px solid #4d4d4d;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 #adminLine {
-    margin-left: 0;
-    margin-top: 0;
-    width: 1001px;
-    border: 2px solid #CDCDCD;
+  margin-left: 0;
+  margin-top: 0;
+  width: 73.280vw;
+  border:2px solid #cdcdcd;
 }
 
 .categoryProductBtn {
-    width: 1090px;
-    height: 39px;
-    display: flex;
-    margin-top: 34px;
-    margin-left: 87px;
+  width: 79.795vw;
+  height: 2.855vw;
+  display: flex;
+  margin-top: 2.489vw;
+  margin-left: 6.369vw;
 }
 
 .categoryBtn {
-    width: 177px;
-    height: 39px;
-    background: #949494;
-    font: normal normal normal 17px/23px Poppins;
-    color: #FFFFFF;
-    border-radius: 0;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: 0px 3px 6px #00000029;
+  width: 12.958vw;
+  height: 2.855vw;
+  background: linear-gradient(#f5004e, #8e0072);
+  color: white;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  border: white;
 }
-
+.categoryBtn:focus {
+  outline: none;
+}
 .productBtn {
-    margin-left: 32px;
-    width: 157px;
-    height: 39px;
-    background: #949494;
-    font: normal normal normal 17px/23px Poppins;
-    color: #FFFFFF;
-    border-radius: 0;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: 0px 3px 6px #00000029;
+  margin-left: 2.343vw;
+  width: 11.493vw;
+  height: 2.855vw;
+  background: linear-gradient(#f5004e, #8e0072);
+  color: white;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  border-radius: 0;
+  text-decoration: none;
+  cursor: pointer;
+  border: white;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+}
+.productBtn:focus {
+  outline: none;
 }
 
 .productNumber {
-    width: 276px;
-    height: 21px;
-    margin-left: 462px;
-    text-align: right;
-    font: normal normal normal 15px/23px Poppins;
-    color: #CDCDCD;
+  width: 19.903vw;
+  height: 1.537vw;
+  margin-left: 33.821vw;
+  text-align: right;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #cdcdcd;
 }
 
 .SearchDrop {
-    width: 721px;
-    height: 40px;
-    margin-top: 32px;
-    margin-left: 87px;
-    border: 1px solid coral;
+  width: 52.782vw;
+  height: 2.928vw;
+  margin-top: 2.343vw;
+  margin-left: 6.369vw;
+  border: 0.073vw solid coral;
 }
 
 .AdminProductDetails {
-    width: 1086px;
-    height: 623px;
-    margin-top: 32px;
-    margin-left: 87px;
-    border: 1px solid #707070;
-    display: grid;
-    grid-template-rows: 45px 24px 542px;
+  width: 79.868vw;
+  height: 45.608vw;
+  margin-top: 2.343vw;
+  margin-left: 6.369vw;
+  border: 0.073vw solid #707070;
+  display: grid;
+  grid-template-rows: 3.294vw 1.757vw 39.678vw;
 }
 
 .AdminProductHeading {
-    width: 848px;
-    height: 21px;
-    margin-top: 24px;
-    margin-left: 24px;
-    display: flex;
+  width: 62.079vw;
+  height: 1.537vw;
+  margin-top: 1.757vw;
+  margin-left: 1.757vw;
+  display: flex;
 }
 
 #adminCategories {
-    width: 83px;
-    height: 21px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #4D4D4D;
+  width: 6.076vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
 }
 
 #adminProductID {
-    width: 77px;
-    height: 21px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #4D4D4D;
-    margin-left: 80px;
+  width: 5.637vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  margin-left: 5.857vw;
 }
 
 #adminQuantity {
-    width: 64px;
-    height: 21px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #4D4D4D;
-    margin-left: 68px;
+  width: 4.685vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  margin-left: 4.978vw;
 }
 
 #adminName {
-    width: 45px;
-    height: 21px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #4D4D4D;
-    margin-left: 174px;
+  width: 3.294vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  margin-left: 12.738vw;
 }
 
 #adminStatus {
-    width: 47px;
-    height: 21px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #4D4D4D;
-    margin-left: 208px;
+  width: 3.441vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  margin-left: 15.227vw;
 }
 
 #AdminLine {
-    width: 1081px;
-    border: 1px solid #707070;
-    margin-top: 24px;
-
+  width: 79.575vw;
+  border: 0.073vw solid #707070;
+  margin-top: 1.757vw;
+  margin-left: 0;
 }
-
+.productDetailOuterBox {
+  width: 79.722vw;
+  height: 40.556vw;
+  display: grid;
+  grid-template-rows: repeat(500000, 2.709vw);
+  overflow: auto;
+}
+.productDetailOuterBox::-webkit-scrollbar {
+  width: 0.439vw;
+}
+.productDetailOuterBox::-webkit-scrollbar-track {
+  border-radius: 2.709vw;
+  border: 0.366vw solid #e9e9e9;
+  box-shadow: inset 0 0 0.183vw 0.146vw rgba(0, 0, 0, 0.5);
+}
+.productDetailOuterBox::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+}
 .productDetailsAdmin {
-    width: 997px;
-    height: 526px;
-    margin-top: 16px;
-    margin-left: 33px;
-    display: grid;
-}
-
-.detailOne {
-    width: 996px;
-    height: 21px;
-    display: flex;
+  width: 72.987vw;
+  height: 1.537vw;
+  margin-top: 1.171vw;
+  margin-left: 2.416vw;
+  display: flex;
 }
 
 .productDresses {
-    width: 58px;
-    height: 21px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #8D8D8D;
+  width: 4.246vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
 }
 
 .productIdAdmin {
-    width: 52px;
-    height: 21px;
-    margin-left: 102px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #8D8D8D;
+  width: 3.807vw;
+  height: 1.537vw;
+  margin-left: 7.467vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
 }
 
 .quantityIncDec {
-    width: 94px;
-    height: 21px;
-    margin-left: 75.09px;
-    display: flex;
+  width: 6.881vw;
+  height: 1.537vw;
+  margin-left: 5.497vw;
+  display: flex;
 }
 
 #minusIcon {
-    width: 17px;
-    height: 17px;
-    color: #ADADAD;
-    cursor: pointer;
+  width: 1.245vw;
+  height: 1.245vw;
+  color: #adadad;
+  cursor: pointer;
+  margin-top: 0.220vw;
 }
 
 .quantityNo {
-    width: 14px;
-    height: 21px;
-    margin-left: 23px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #4D4D4D;
+  width: 1.025vw;
+  height: 1.537vw;
+  margin-left: 1.684vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
 }
 
 #plusIcon {
-    width: 17px;
-    height: 17px;
-    color: #ADADAD;
-    cursor: pointer;
-    margin-left: 23px;
+  width: 1.245vw;
+  height: 1.245vw;
+  color: #adadad;
+  cursor: pointer;
+  margin-left: 1.684vw;
+  margin-top: 0.220vw;
 }
 
 .dressName {
-    width: 143px;
-    height: 21px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #8D8D8D;
-    margin-left: 62.02px;
+  width: 22.840vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  margin-left: 4.540vw;
 }
 
 .productStatus {
-    display: flex;
-    width: 128px;
-    height: 21px;
-    margin-left: 165px;
+  display: flex;
+  width: 9.370vw;
+  height: 1.537vw;
+  margin-left: 1.391vw;
 }
 
 #closeSquare {
-    width: 17px;
-    height: 17px;
-    color: #CDCDCD;
-    cursor: pointer;
+  width: 1.245vw;
+  height: 1.245vw;
+  color: #cdcdcd;
+  cursor: pointer;
+  margin-top: 0.220vw;
 }
 
 #checkSquare {
-    width: 17px;
-    height: 17px;
-    color: #13C200;
-    margin-left: 7px;
-    cursor: pointer;
+  width: 1.245vw;
+  height: 1.245vw;
+  color: #13c200;
+  margin-left: 0.512vw;
+  cursor: pointer;
+  margin-top: 0.220vw;
 }
 
 .StatusAva {
-    width: 69px;
-    height: 21px;
-    font: normal normal normal 15px/23px Poppins;
-    color: #8D8D8D;
-    margin-left: 21px;
+  width: 5.051vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  margin-left: 1.537vw;
 }
 
 #deleteButton {
-    width: 17px;
-    color: #FF3B3B;
-    height: 18px;
-    margin-left: 91px;
-    cursor: pointer;
+  width: 1.245vw;
+  color: #ff3b3b;
+  height: 1.318vw;
+  margin-left: 6.662vw;
+  cursor: pointer;
+  margin-top: 0.220vw;
 }
 
-
 .endLine {
-    margin-top: 26.51px;
-    margin-left: 513.5;
-    width: 339px;
-    border: 1px solid #CDCDCD;
+  margin-top: 1.940vw;
+  margin-left: 37.592vw;
+  width: 24.817vw;
+  border: 0.073vw solid #cdcdcd;
 }
 
 .AdminPopUp {
-    position: absolute;
-    -webkit-position: sticky;
-    width: 100vw;
-    height: 215.959vw;
-    background-color: rgba(0, 0, 0, 0.9);
-    top: 0;
-    z-index: 1046;
-    display: none;
+  position: absolute;
+  -webkit-position: sticky;
+  width: 100vw;
+  height: 142vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  z-index: 1046;
+  display: none;
 }
 
 .SmallUp {
-    width: 1088px;
-    height: 665px;
-    margin-top: 3.294vw;
-    margin-left: 10.176vw;
-    background-color: white;
-    z-index: 1046;
-    display: grid;
-    grid-template-rows: 56px 301px;
+  width: 79.649vw;
+  height: 48.682vw;
+  margin-top: 7.321vw;
+  margin-left: 10.176vw;
+  background-color: white;
+  z-index: 1046;
+  display: grid;
+  grid-template-rows: 4.100vw 22.035vw;
+  border-radius: 1.464vw;
 }
 
 .headingPopUp {
-    /* border: 1px solid black; */
-    width: 587.5px;
-    height: 24px;
-    margin-top: 16px;
-    margin-left: 24px;
-    display: flex;
+  width: 43.009vw;
+  height: 1.757vw;
+  margin-top: 1.171vw;
+  margin-left: 1.757vw;
+  display: flex;
 }
 
 .adminClose {
-    width: 14px;
-    height: 24px;
-    font-size: 2.855vw;
-    transform: rotate(45deg);
-    cursor: pointer;
-    color: #4D4D4D;
+  width: 1.025vw;
+  height: 1.757vw;
+  font-size: 2.855vw;
+  transform: rotate(45deg);
+  cursor: pointer;
+  color: #4d4d4d;
 }
 
 .adminPopHeading {
-    width: 132px;
-    height: 24px;
-    margin-left: 441px;
-    font: normal normal bold 20px/24px Montserrat;
-    color: #2D2D2D;
+  width: 9.663vw;
+  height: 1.757vw;
+  margin-left: 32.284vw;
+  font: normal normal bold 1.464vw/1.757vw Montserrat;
+  color: #2d2d2d;
 }
 
-.detailFill{
-    width: 986px;
-    height: 260px;
-    border: 1px solid black;
-    margin-top: 41px;
-    margin-left: 55px;
+.detailFill {
+  width: 72.182vw;
+  height: 19.034vw;
+  border: 0.073vw solid black;
+  margin-top: 3.001vw;
+  margin-left: 2.343vw;
 }

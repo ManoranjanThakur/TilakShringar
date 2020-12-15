@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 // import Search from '../Search Button/Search';
 import Aboutme from './Aboutme';
 import './Profile.css';
-import { Link } from 'react-router-dom';
+
 function Profile(){
     return(
         <div>
@@ -20,9 +20,9 @@ function Profile(){
             </div>
             <div className="profileBox"> 
                 <div className="boxNav">
-                    <h6 className="myProfile" ><Link to="/myprofile" style={{color:'#4D4D4D'}}>MY PROFILE</Link></h6>
-                    <h6 className="myOrders" ><Link to="/profile" style={{color:'#4D4D4D'}}>MY ORDERS</Link></h6>
-                    <h6 className="myAddress" ><Link to='/address' style={{color:'#4D4D4D'}}>MY ADDRESS</Link></h6>
+                    <h6 className="myProfile" ><a href="/myprofile" style={{color:'#4D4D4D'}}>MY PROFILE</a></h6>
+                    <h6 className="myOrders" ><a href="/profile" style={{color:'#4D4D4D'}}>MY ORDERS</a></h6>
+                    <h6 className="myAddress" ><a href='/address' style={{color:'#4D4D4D'}}>MY ADDRESS</a></h6>
                 </div>
                 <div className="forline"> 
                     <hr id='line0'></hr>
@@ -91,15 +91,31 @@ function Profile(){
                         <span className="Delivered">Delivered</span>
                     </div>
                 </div>
+                <div className="ThirdBoxOrder">
+                    <div className="secondOrderID">
+                        <h6>3</h6>
+                        <span className='orderidd'>Order ID:</span>
+                        <span className="orderNo">323232DS</span>
+                        <span className="closeDetail">See details</span>
+                    </div>
+                    <div className="datee">
+                        <span className="dateeW">Date:</span>
+                        <span className="month">27th August 2020</span>
+                    </div>
+                    <div className="statusBox">
+                        <span className="Status">Status:</span>
+                        <span className="Delivered">Delivered</span>
+                    </div>
+                </div>
 
             </div>
             <hr id='linee'></hr>
             <div className='cardss'>
                 <div className='rcardd1'>
-                <span><Link to='/shop' style={{color:'#4D4D4D'}}>SHOP</Link></span>
+                <span><a href='/shop' style={{color:'#4D4D4D'}}>SHOP</a></span>
                 </div>
                 <div className='rcard3'>
-                <span><Link to='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</Link></span>
+                <span><a href='/categories' style={{color:'#4D4D4D'}}>CATEGORIES</a></span>
                 </div>
                 
             </div>

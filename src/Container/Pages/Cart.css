@@ -1,170 +1,123 @@
-.headlinee {
-    margin-top: 10.5vw;
-    margin-left: 21.889vw;
-    font: normal normal normal 2.562vw/3.880vw Poppins;
-    color: #4D4D4D;
+.mycartLineTo {
+  border: 2px solid #cdcdcd;
+  margin-left: 0.805vw;
+  width: 18.228vw;
+  margin-top: 1.042vw;
+  margin-right: 0;
 }
-.producttt1{
-    margin-top:3.660vw;
-    display:flex;
-    width:51.143vw;
-    height:14.255vw;
-    margin-left:23.704vw;
+.orderPaymentChange {
+  color: #cdcdcd;
+  width: 9.444vw;
+  height: 2.05vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  margin-left: 0.805vw;
 }
-.producttt1 span{
-    font: normal normal bold 1.464vw/2.196vw Poppins;
-    color: #2D2D2D;
+.myCartHeadline {
+  width: 21.376vw;
+  height: 6.808vw;
+  margin-left: 10.176vw;
+  margin-top: 2.855vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
-.imgblock{
-    margin-left:0.205vw;
-    width:18.658vw;
-    height:14.240vw;
-    background: #6D6D6D 0% 0% no-repeat padding-box;
-    border: 0.073vw solid #CDCDCD;
+.myCartMainBox {
+  display: flex;
+  margin-top: 1.171vw;
+  margin-left: 10.176vw;
+  height: 35.139vw;
+  width: 80.307vw;
 }
-.prodescription{
-    margin-left:4.675vw;
-    height:14.255vw;
-    width:28.542vw;
+.CartBox {
+  width: 47.115vw;
+  height: 32.244vw;
+  display: grid;
+  grid-template-rows: 1.537vw 14.967vw 15.739vw;
+  margin-top: 1.191vw;
 }
-.nameandwishbox{
-    height:3.221vw;
-    display: flex;
-}
-.nameandwishbox p{
-    color: #2D2D2D;
-    font: normal normal normal 1.098vw/1.684vw Poppins;
-    width: 22.621vw;
-    height: 3.221vw;
-}
+.referenceCodeBox {
+  width: 20.864vw;
+  height: 20.937vw;
+  margin-left: 12.329vw;
 
-.wishlisttbox {
-    margin-left:2.263vw;
-    width: 2.343vw;
-    height: 2.343vw;
-    background: #CDCDCD 0% 0% no-repeat padding-box;
-    opacity: 1;
+  display: grid;
+  grid-template-rows:2.728vw 3.275vw 3.294vw 2.123vw 8.346vw;
 }
-#wishlistt{
-        margin-top: 0.293vw;
-        margin-left: 0.366vw;
-        width: 1.611vw;
-        height: 1.684vw;
-        color: #8D8D8D 0% 0% no-repeat padding-box;
-        opacity: 0.4;
+.ReferenceCodeHeading {
+  width: 9.517vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  padding-top: 1.171vw;
+  margin-left: 1.025vw;
 }
-#wishlistt:hover{
-    color:#E54725;
-    opacity:1;
+.RefCodeBoxWithButton {
+  width: 18.594vw;
+  margin-top: 0.493vw;
+  height: 2.782vw;
+  display: flex;
+  margin-left: 1.171vw;
 }
-#moneyy{
-    height:1.830vw;
-    margin-top:0.786vw;
-    color: #2D2D2D;
-    font: normal normal normal 1.464vw/2.196vw Poppins;
+.RefCodeInput {
+  width: 12.738vw;
+  height: 2.782vw;
+  border: 0.073vw solid #707070;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  padding-left: 0.732vw;
 }
-.tagbox{
-    margin-top:0.781vw;
-    width:17.757vw;
-    height:3.075vw;
+.RefCodeInput:focus {
+  outline: none;
 }
-.tagbox span{
-    color:#2D2D2D;
-    font: normal normal normal 0.952vw/1.611vw Poppins;
+.RefButton {
+  width: 5.857vw;
+  height: 2.782vw;
+  background: linear-gradient(#f5004e, #8e0072);
+  border: 0.073vw solid #8e0072;
+  color: white;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  cursor: pointer;
 }
-.tagbox p{
-    font: normal normal normal 0.878vw/1.464vw Poppins;
-    color: #ADADAD;
+.RefButton:focus {
+  outline: none;
 }
-.descriptionboxx{
-    width: 27.810vw;
-    height:3.660vw;
+.DiscountBox {
+  width: 18.448vw;
+  height: 1.537vw;
+  margin-top: 1.757vw;
+  display: flex;
+  margin-left: 1.245vw;
 }
-.descriptionboxx span{
-    color:#2D2D2D;
-    font: normal normal normal 0.952vw/1.611vw Poppins;
+.DiscountHeading {
+  width: 5.051vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  letter-spacing: 0;
+  color: #8d8d8d;
 }
-.descriptionboxx p{
-    font: normal normal normal 0.878vw/1.464vw Poppins;
-    color: #ADADAD;
+.discountMoney {
+  width: 7.394vw;
+  height: 1.537vw;
+  text-align: right;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  margin-left: 6.003vw;
 }
-.checkoutt{
-    display: flex;
-    margin-top:5.671vw;
-    margin-left:41.837vw;
-    width:21.449vw;
-    height:2.855vw;
-    background-color:#8D8D8D;
-    box-shadow: 0vw 0.220vw 0.439vw #00000029;
-    align-items: center;
-    justify-content: center;
+.RefProceedButton {
+  cursor: pointer;
+  background: linear-gradient(#f5004e, #8e0072);
+  color: white;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  width: 15.300vw;
+  height: 3.587vw;
+  margin-top: 4.758vw;
+  margin-left: 2.928vw;
+  border: white;
 }
-.checkoutt span{
-    color: #FFFFFF;
-    font: normal normal normal 1.464vw/2.196vw Poppins;
+.RefProceedButton:focus {
+  outline: none;
 }
-.Shadow{
-    margin-top:3.148vw;
-    margin-left: 21.157vw;
-    width:57.687vw;
-    height:10.981vw;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0vw 0.220vw 0.439vw #00000029;
-}
-.billl{
-    display:flex;
-    height:7.540vw;
-    width:60.578vw;
-    margin-left:1.318vw;
-    margin-top:0.439vw;
-}
-.billl p{
-    width:7.760vw;
-    height:2.855vw;
-    font: normal normal normal 1.464vw/2.196vw Poppins;
-    color: #ADADAD;
-}
-.addresss{
-    margin-left:9.114vw;
-    width: 17.936vw;
-    height: 6.662vw;
-}
-.addresss p{
-    width:17.936vw;
-    height:2.196vw;
-    margin:0vw;
-    font: normal normal normal 1.464vw/2.196vw Poppins;
-    color: #2D2D2D;
-}
-.changeadd{
-    margin-left:13.726vw;
-}
-.contactno{
-    margin-left:1.318vw;
-    display:flex;
-    width:43.704vw;
-    height:2.855vw;
-}
-.contactno p{
-    font: normal normal normal 1.464vw/2.196vw Poppins;
-    color: #ADADAD;
-}
-.contactno span{
-    font: normal normal normal 1.464vw/2.196vw Poppins;
-    color: #2D2D2D;
-    margin-left:4.466vw;
-}
-#linee{
-    margin-top:7.687vw;
-    margin-left:40.849vw;
-    width:24.817vw;
-}
-
-@media (max-width:700px){
-    .headlinee{
-        margin-top:2.143vw;
-        margin-left:6.286vw;
-        font: normal normal normal 2.562vw/3.880vw Poppins;
-    }
-  
-  }
