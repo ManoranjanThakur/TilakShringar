@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../../Container/Top Nav Bar/Header';
 import Index2 from '../../Container/Side Nav Bar/Index2';
 import Search from '../Search Button/Search';
@@ -10,9 +10,25 @@ import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { AiFillStar } from "react-icons/ai";
 import { MdAttachFile } from "react-icons/md";
+import { useDispatch, useSelector } from 'react-redux';
+import { GetProductDetailsById } from '../../actions';
 
 var price = 300;
-function Product() {
+const Product = (props) => {
+    
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        const { productId } = props.match.params;
+        const payload = {
+            params: {
+                productId
+            }
+        }
+        dispatch(GetProductDetailsById(payload));
+    } , []);
+    
+    const product = useSelector(state => state.product);
     return (
         <div>
             <Header />
@@ -34,11 +50,11 @@ function Product() {
                     </div>
                 </div>
                 <div className='productdes'>
-                    <p>Kanha/Laddu Gopal/Krishna Ji Dress/Poshak_SizeNo1_Cotton</p>
+                    <p>{product.productDetails.name}</p>
                     <div className="icon2"><TiHeartFullOutline id="iconn2" /></div>
                     <div className="icon1"><BiCartAlt id="iconn1" /></div>
                     <div style={{ display: "flex" }}>
-                        <span className='cost'>Rs. {price}/-</span>
+                        <span className='cost'>Rs. {product.productDetails.price}/-</span>
                         <AiFillStar style={{ marginTop: "3.29vw", height: "1.830vw", width: "1.684vw", color: "#FFFF00", marginLeft: "1.245vw" }} />
                         <p style={{ marginTop: "2.928vw", font: "normal normal normal 1.757vw/2.562vw Poppins", marginLeft: "0.512vw" }}>0.0</p>
                     </div>
@@ -46,7 +62,7 @@ function Product() {
                     <p2>choli, white, small,</p2>
                     <div className='descriptions'>
                         <span>Description:</span>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                        <p>{product.productDetails.description}</p>
                     </div>
                 </div>
             </div>

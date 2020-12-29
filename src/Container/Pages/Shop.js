@@ -6,9 +6,47 @@ import Footer from '../Footer/Footer';
 import './Shop.css';
 import {TiHeartFullOutline} from "react-icons/ti";
 import { BiCartAlt } from "react-icons/bi";
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom'
 
-
-function Shop() {
+const Shop = (props) => {
+    const product = useSelector(state => state.product);
+    const renderProducts = () => {
+        return (
+            <div >
+                { 
+                    product.products.length > 0 ?
+                        product.products.map(product =>
+                            <div>
+                                <div className='product1'>
+                                    <div className="ii"> 
+                                    <Link to={`/${product.slug}/${product._id}/p`} style = {{
+                                display:'block'
+                            }}><img src={product.productPictures.img} alt='HR'/></Link>
+                                        <div className="ii1"><BiCartAlt id="iii1"/></div> 
+                                        <div className="ii2"><TiHeartFullOutline id="iii2"/></div> 
+                                    </div>
+                                </div>
+                                <div className='p1info'>
+                                <Link to={`/${product.slug}/${product._id}/p`} style = {{
+                                display:'block'
+                            }}>
+                                    <p2 style={{color:'#4D4D4D'}} id='product1i'>{product.name}</p2></Link>
+                                    <p2 id='price1'>Rs. {product.price}/-</p2>
+                                </div>
+                            </div>
+                        ) : 
+                            
+                            <div className="nullProducts">
+                                <h2>No Products</h2>
+                            </div>
+                            
+        
+    
+                }
+            </div>
+        )
+    }
     return (
         <div>
             <Header/>
@@ -17,7 +55,8 @@ function Shop() {
                 < Search />
             </div>
             <h2 className='shopheadlinee'>our products...</h2>
-            <div className='product1'>
+            {renderProducts()}
+            {/* <div className='product1'>
                 <div className="ii"> 
                     <div className="ii1"><BiCartAlt id="iii1"/></div> 
                     <div className="ii2"><TiHeartFullOutline id="iii2"/></div> 
@@ -26,8 +65,8 @@ function Shop() {
             <div className='p1info'>
                 <p2 id='product1i'><a href='/product' style={{color:'#4D4D4D'}}>Product Name will be written in maximum of two lines</a></p2>
                 <p2 id='price1'>Rs. 300/-</p2>
-            </div>
-            <div className='product2'>
+            </div> */}
+            {/* <div className='product2'>
                 <div className="ii"> 
                     <div className="ii1"><BiCartAlt id="iii1"/></div> 
                     <div className="ii2"><TiHeartFullOutline id="iii2"/></div> 
@@ -102,7 +141,7 @@ function Shop() {
                 <div className='rrcard4'>
                     <span><a href="/query" style={{color:'#4D4D4D'}}>QUERY</a></span>
                 </div>
-            </div>
+            </div> */}
             <Footer/>
         </div>
     )

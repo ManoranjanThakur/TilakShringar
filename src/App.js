@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import 'semantic-ui-css/semantic.css'
 import Home from './Container/Pages/Home';
@@ -21,8 +21,15 @@ import AdminReseller from './Container/Pages/AdminReseller';
 import ResellerOrder from './Container/Pages/ResellerOrder';
 import ResellerNotification from './Container/Pages/ResellerNotification';
 import ResellerEarning from './Container/Pages/ResellerEarning';
+import { getInitialData } from './actions';
+import { useDispatch, useSelector } from 'react-redux';
 function App() {
-
+  const dispatch = useDispatch();
+  const auth = useSelector(state => state.auth)
+  
+  useEffect(()=>{
+    dispatch(getInitialData());
+  } , []);
   return (
     <Router>
     <div className="App">
@@ -33,7 +40,7 @@ function App() {
         <Route path="/query" component={Query}></Route>
         <Route path="/categories" component={Categories}></Route>
         <Route path="/cart" component={Cart}></Route>
-        <Route path="/product" component={Product}></Route>
+        <Route path="/:productSlug/:productId/p" component={Product}></Route>
         <Route path="/blogs" component={Blogs}></Route>
         <Route path="/profile" component={Profile}></Route>
         <Route path="/address" component={Address}></Route>

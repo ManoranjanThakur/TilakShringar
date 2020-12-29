@@ -23,6 +23,7 @@
   border: 0.073vw solid #cdcdcd;
 }
 
+
 .p1info {
   display: grid;
   width: 24.158vw;
@@ -45,6 +46,20 @@
   margin-top: 0.366vw;
   font: normal normal normal 1.757vw/2.562vw Poppins;
 }
+
+
+
+.nullProducts{
+  height:30vw;
+}
+.nullProducts h2{
+  margin-top:10vw;
+  width:fit-content;
+  margin-left: 43.5vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+}
+
 
 .product2 {
   margin-top: -30.161vw;
