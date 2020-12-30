@@ -13,7 +13,7 @@ const Shop = (props) => {
     const product = useSelector(state => state.product);
     const renderProducts = () => {
         return (
-            <div >
+            <div style={{marginLeft: '21.474vw'}}>
                 { 
                     product.products.length > 0 ?
                         product.products.map(product =>

@@ -21,7 +21,7 @@ import AdminReseller from './Container/Pages/AdminReseller';
 import ResellerOrder from './Container/Pages/ResellerOrder';
 import ResellerNotification from './Container/Pages/ResellerNotification';
 import ResellerEarning from './Container/Pages/ResellerEarning';
-import { getInitialData } from './actions';
+import { getInitialData , updateCart } from './actions';
 import { useDispatch, useSelector } from 'react-redux';
 function App() {
   const dispatch = useDispatch();
@@ -30,6 +30,10 @@ function App() {
   useEffect(()=>{
     dispatch(getInitialData());
   } , []);
+  useEffect(()=> {
+    dispatch(updateCart());
+  }, []);
+
   return (
     <Router>
     <div className="App">

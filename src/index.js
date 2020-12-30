@@ -9,7 +9,7 @@ import store from './store';
 window.store = store;
 
 ReactDOM.render(
-  <Provider store = {store}>
+  <Provider store = {store}> 
   <React.StrictMode>
     <App />
   </React.StrictMode>

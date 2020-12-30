@@ -1,9 +1,13 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
 import Header from "../../Container/Top Nav Bar/Header";
 import Footer from "../Footer/Footer";
 import './Cart.css'
 
-function Cart() {
+const Cart = (props) => {
+    const cart = useSelector(state => state.cart);
+    const cartItems = cart.cartItems;
+
     return (
         <div>
             <Header />
@@ -18,38 +22,29 @@ function Cart() {
             <div className="myCartMainBox">
                 <div className="CartBox">
                     <p className="itemNoHeading">2 Items</p>
-                    <div className='givenOrderNo1'>
-                        <div className='imageoftheProduct1'></div>
-                        <div className='detailsoftheProduct1'>
-                            <p className='nameoftheProductGiven'>Product Name will be written in maximum of two lines</p>
-                            <p className='priceoftheGivenProduct'>Rs. 300/-</p>
-                            <div className='tagsOfGivenProduct'>
-                                <p style={{ color: '#2D2D2D', width: '2.928vw', height: '1.537vw' }}>Tags:</p>
-                                <p style={{ color: '#ADADAD', width: '22.548vw' }}>choli, white, small</p>
-                            </div>
-                            <div className='descriptionofGivenProduct'>
-                                <p style={{ color: '#2D2D2D', height: '1.537vw' }}>Description:</p>
-                                <p style={{ color: '#ADADAD' }}>Lorem ipsum dolor sit amet, consetetur </p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div className='givenOrderNo2'>
-                        <div className='imageoftheProduct1'></div>
-                        <div className='detailsoftheProduct1'>
-                            <p className='nameoftheProductGiven'>Product Name will be written in maximum of two lines</p>
-                            <p className='priceoftheGivenProduct'>Rs. 300/-</p>
-                            <div className='tagsOfGivenProduct'>
-                                <p style={{ color: '#2D2D2D', width: '2.928vw', height: '1.537vw' }}>Tags:</p>
-                                <p style={{ color: '#ADADAD', width: '22.548vw' }}>choli, white, small</p>
-                            </div>
-                            <div className='descriptionofGivenProduct'>
-                                <p style={{ color: '#2D2D2D', height: '1.537vw' }}>Description:</p>
-                                <p style={{ color: '#ADADAD' }}>Lorem ipsum dolor sit amet, consetetur </p>
-                            </div>
-
-                        </div>
-                    </div>
+                    
+                        {   Object.keys(cartItems) > 0 ? 
+                            Object.keys(cartItems).map((key, index) => 
+                                <div className='givenOrderNo1' key={index}>
+                                    <div className='imageoftheProduct1'></div>
+                                    <div className='detailsoftheProduct1'>
+                                        <p className='nameoftheProductGiven'>{cartItems[key].name}</p>
+                                        <p className='priceoftheGivenProduct'>Rs. {cartItems[key].price}/-</p>
+                                        <div className='tagsOfGivenProduct'>
+                                            <p style={{ color: '#2D2D2D', width: '2.928vw', height: '1.537vw' }}>Tags:</p>
+                                            <p style={{ color: '#ADADAD', width: '22.548vw' }}>choli, white, small</p>
+                                        </div>
+                                        <div className='descriptionofGivenProduct'>
+                                            <p style={{ color: '#2D2D2D', height: '1.537vw' }}>Description:</p>
+                                            <p style={{ color: '#ADADAD' }}>{cartItems[key].description}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                            : <div className="Nullcart"><h2> No Items in Cart</h2></div>
+                        }
+                        
+                    
                 </div>
                 <div className='referenceCodeBox'>
                     <p className='ReferenceCodeHeading'>Reference Code</p>

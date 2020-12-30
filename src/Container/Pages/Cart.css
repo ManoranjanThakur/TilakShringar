@@ -1,3 +1,16 @@
+.Nullcart{
+  height:30vw;
+}
+.Nullcart h2{
+  margin-top:10vw;
+  width:fit-content;
+  margin-left: 11.5vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+}
+
+
+
 .mycartLineTo {
   border: 2px solid #cdcdcd;
   margin-left: 0.805vw;

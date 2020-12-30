@@ -12,6 +12,7 @@ import { AiFillStar } from "react-icons/ai";
 import { MdAttachFile } from "react-icons/md";
 import { useDispatch, useSelector } from 'react-redux';
 import { GetProductDetailsById } from '../../actions';
+import { addToCart } from '../../actions';
 
 var price = 300;
 const Product = (props) => {
@@ -52,7 +53,12 @@ const Product = (props) => {
                 <div className='productdes'>
                     <p>{product.productDetails.name}</p>
                     <div className="icon2"><TiHeartFullOutline id="iconn2" /></div>
-                    <div className="icon1"><BiCartAlt id="iconn1" /></div>
+                    <div className="icon1"><BiCartAlt id="iconn1" onClick={()=> {
+                        const {_id, name, price, description}= product.productDetails;
+                        const img = product.productDetails.productPictures[0].img;
+                        dispatch(addToCart({_id, name, price, img, description}));
+                        props.history.push('/cart');
+                    }}/></div>
                     <div style={{ display: "flex" }}>
                         <span className='cost'>Rs. {product.productDetails.price}/-</span>
                         <AiFillStar style={{ marginTop: "3.29vw", height: "1.830vw", width: "1.684vw", color: "#FFFF00", marginLeft: "1.245vw" }} />

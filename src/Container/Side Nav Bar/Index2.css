@@ -91,6 +91,20 @@
   font: normal normal normal 0.878vw/1.4vw Poppins;
   color: #adadad;
 }
+.nulllCategories{
+  width:10vw;
+  height:8vw;
+  background-image: linear-gradient(#f5004e, #8e0072);
+
+}
+.nulllCategories h2{
+  margin-top:1vw;
+  height:min-content;
+  width:min-content;
+  margin-left: 1vw;
+  font: normal normal normal 1.824vw/1.68vw Acme;
+  
+}
 @media (max-width: 700px) {
   .sidenavbar {
     display: none;

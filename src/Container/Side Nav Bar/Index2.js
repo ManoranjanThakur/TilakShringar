@@ -27,11 +27,21 @@ const Index2= (props) => {
         }
         return myCategories;
       }
+      const renderNull = () => {
+        let nullCategory = [];
+        nullCategory.push(
+        <div className="nulllCategories">
+            <h2>No</h2>
+            <h2>Categories</h2>
+        </div>
+        )
+        return nullCategory;
+    }
     return (
             <div className="sidenavbar">
                 
                 <div className="sidetop">CATEGORY -
-                    {category.categories.length>0? renderCategories(category.categories):null}
+                    {category.categories.length>0? renderCategories(category.categories):renderNull()}
                 </div>
                 <div className="sidemid">
                         <span>Experience the best online shopping experience for Krishna Dresses, Laddu Gopal Dresses, Radha Krishna Dresses, Pooja Ghar Items Laddu Gopal Accessories, and Ornaments like Mukut, Bansuri, and etcetera. 

@@ -24,3 +24,7 @@ export const initialDataConstants = {
     GET_ALL_INITIAL_DATA_SUCCESS : 'GET_ALL_INITIAL_DATA_SUCCESS',
     GET_ALL_INITIAL_DATA_FAILURE : 'GET_ALL_INITIAL_DATA_FAILURE'
 }
+
+export const cartConstants = {
+    ADD_TO_CART: 'ADD_TO_CART'
+}

@@ -17,7 +17,7 @@
 
 .product1 {
   margin-top: 2.489vw;
-  margin-left: 22.474vw;
+  margin-left: 1vw;
   width: 24.158vw;
   height: 22.767vw;
   border: 0.073vw solid #cdcdcd;
@@ -29,7 +29,7 @@
   width: 24.158vw;
   height: 6.808vw;
   margin-top: 0.586vw;
-  margin-left: 22.474vw;
+  margin-left: 1vw;
 }
 
 #product1i {
@@ -55,7 +55,7 @@
 .nullProducts h2{
   margin-top:10vw;
   width:fit-content;
-  margin-left: 43.5vw;
+  margin-left: 25.5vw;
   font: normal normal normal 5.124vw/4.88vw Acme;
   background-image: linear-gradient(#f5004e, #8e0072);
 }
