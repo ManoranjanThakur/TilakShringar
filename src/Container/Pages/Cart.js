@@ -23,7 +23,7 @@ const Cart = (props) => {
                 <div className="CartBox">
                     <p className="itemNoHeading">2 Items</p>
                     
-                        {   Object.keys(cartItems) > 0 ? 
+                        {    
                             Object.keys(cartItems).map((key, index) => 
                                 <div className='givenOrderNo1' key={index}>
                                     <div className='imageoftheProduct1'></div>
@@ -41,7 +41,7 @@ const Cart = (props) => {
                                     </div>
                                 </div>
                             )
-                            : <div className="Nullcart"><h2> No Items in Cart</h2></div>
+                            
                         }
                         
                     
