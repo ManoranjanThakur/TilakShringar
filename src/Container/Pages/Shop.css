@@ -16,22 +16,40 @@
 }
 
 .product1 {
-  margin-top: 2.489vw;
-  margin-left: 1vw;
   width: 24.158vw;
   height: 22.767vw;
+  position: relative;
+  display: inline-block;
   border: 0.073vw solid #cdcdcd;
+  overflow: hidden;
+  /* margin-left: 1vw; */
 }
 
+.product1 img {
+  max-width: 100%;
+  height: 100%;
+}
+.product1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: black;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+}
+.product1:hover::before {
+  left: 0;
+}
 
 .p1info {
   display: grid;
   width: 24.158vw;
   height: 6.808vw;
   margin-top: 0.586vw;
-  margin-left: 1vw;
+  margin-left: 0;
 }
-
 #product1i {
   display: flex;
   width: 24.158vw;
@@ -47,7 +65,67 @@
   font: normal normal normal 1.757vw/2.562vw Poppins;
 }
 
+.ii1 {
+  margin-left: 0.5vw;
+  width: 2.343vw;
+  height: 2.343vw;
+  background: #cdcdcd 0% 0% no-repeat padding-box;
+  opacity: 1;
+  transform: translateY(22.694vw);
+}
+.product1:hover .ii1 {
+  transform: translateY(0);
+}
+.product2:hover .ii1 {
+  transform: translateY(0);
+}
+.product3:hover .ii1 {
+  transform: translateY(0);
+}
+.ii2 {
+  margin-top: 0;
+  width: 2.343vw;
+  height: 2.343vw;
+  background: #cdcdcd 0% 0% no-repeat padding-box;
+  opacity: 1;
+  transform: translateY(22.694vw);
+}
+.product1:hover .ii2 {
+  transform: translateY(0);
+}
+.product2:hover .ii2 {
+  transform: translateY(0);
+}
+.product3:hover .ii2 {
+  transform: translateY(0);
+}
+#iii1 {
+  margin-top: 0.293vw;
+  margin-left: 0.366vw;
+  width: 1.611vw;
+  height: 1.684vw;
+  color: #8d8d8d 0% 0% no-repeat padding-box;
+  opacity: 0.4;
+}
 
+#iii1:hover {
+  color: #4d8fac;
+  opacity: 2;
+}
+
+#iii2 {
+  margin-top: 0.293vw;
+  margin-left: 0.366vw;
+  width: 1.611vw;
+  height: 1.684vw;
+  color: #8d8d8d 0% 0% no-repeat padding-box;
+  opacity: 0.4;
+}
+
+#iii2:hover {
+  color: #e54725;
+  opacity: 1;
+}
 
 .nullProducts{
   height:30vw;
@@ -55,13 +133,16 @@
 .nullProducts h2{
   margin-top:10vw;
   width:fit-content;
-  margin-left: 25.5vw;
+  margin-left: 43.5vw;
   font: normal normal normal 5.124vw/4.88vw Acme;
-  background-image: linear-gradient(#f5004e, #8e0072);
+  background-image: linear-gradient(#f5004e, #8e0072);  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 
-.product2 {
+/* .product2 {
   margin-top: -30.161vw;
   margin-left: 48.097vw;
   width: 24.158vw;
@@ -307,7 +388,7 @@
   height: 2.416vw;
   margin-top: 0.366vw;
   font: normal normal normal 1.757vw/2.562vw Poppins;
-}
+} */
 .shoploadMore {
   width: 12.299vw;
   height: 3.514vw;
@@ -393,7 +474,7 @@
   transform-origin: bottom left;
 }
 
-.ii {
+/* .ii {
   display: "flex";
 }
 
@@ -441,7 +522,7 @@
 #iii2:hover {
   color: #e54725;
   opacity: 1;
-}
+} */
 
 @media (max-width: 700px) {
   .shop {
