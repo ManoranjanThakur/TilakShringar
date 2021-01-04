@@ -21,7 +21,7 @@ const Categories = (props) => {
                 {
                 category.parentId?<a href={category.slug}>{category.name}</a>:
                 <div className="card1">
-                <img src={category.categoryImage} alt='HR'/>
+                <img src={`http://139.59.92.185:2000${category.categoryImage}`} alt='HR'/>
                     <div className="figCaption" style={{ textAlign: "right" }}>
                         <h2>{category.name}</h2>
                     </div>
