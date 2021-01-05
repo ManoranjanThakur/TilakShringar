@@ -18,7 +18,7 @@ var price = 300;
 const Product = (props) => {
     
     const dispatch = useDispatch();
-
+    const product = useSelector(state => state.product);
     useEffect(() => {
         const { productId } = props.match.params;
         const payload = {
@@ -29,7 +29,7 @@ const Product = (props) => {
         dispatch(GetProductDetailsById(payload));
     } , []);
     
-    const product = useSelector(state => state.product);
+    
     return (
         <div>
             <Header />
