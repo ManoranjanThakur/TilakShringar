@@ -41,7 +41,7 @@ const Product = (props) => {
             <h3 className='productheadlineee'>the product...</h3>
             <div className='productss'>
                 <div className='productpic'>
-                    <div className='ppic'></div>
+                    <img className="ppic" src={product.productDetails.productPictures && `http://139.59.92.185:2000/public/${product.productDetails.productPictures[0].img}`} alt="HR"></img>
                     <div className="productSimilar">
                         <div className="leftSlide"><IoIosArrowBack id="Arrow" /></div>
                         <div className="similarImage1"></div>
