@@ -23,12 +23,12 @@
   margin-left: 5.124vw;
   margin-top: 1.171vw;
   display: grid;
-  grid-template-rows: 4.392vw 1.757vw 5.637vw 5.271vw 47.950vw;
+  grid-template-rows: 4.392vw 1.757vw 5.637vw 5.271vw 47.95vw;
 }
 
 .adminNav {
   width: 37.848vw;
-  height: 2.050vw;
+  height: 2.05vw;
   margin-left: 5.051vw;
   margin-top: 2.343vw;
   display: flex;
@@ -36,7 +36,7 @@
 
 .adminProducts {
   width: 7.687vw;
-  height: 2.050vw;
+  height: 2.05vw;
   font: normal normal normal 1.464vw/2.196vw Poppins;
   color: #4d4d4d;
   margin-top: 0;
@@ -45,7 +45,7 @@
 
 .adminBilling {
   width: 5.051vw;
-  height: 2.050vw;
+  height: 2.05vw;
   margin-top: 0;
   margin-left: 9.004vw;
   font: normal normal normal 1.464vw/2.196vw Poppins;
@@ -54,7 +54,7 @@
 
 .adminReseller {
   width: 7.028vw;
-  height: 2.050vw;
+  height: 2.05vw;
   margin-top: 0;
   margin-left: 9.004vw;
   font: normal normal normal 1.464vw/2.196vw Poppins;
@@ -71,7 +71,7 @@
 
 #adminLine2 {
   width: 7.906vw;
-  border:2px solid #4d4d4d;
+  border: 2px solid #4d4d4d;
   margin-right: 0;
   margin-left: 0;
   margin-top: 0;
@@ -80,8 +80,8 @@
 #adminLine {
   margin-left: 0;
   margin-top: 0;
-  width: 73.280vw;
-  border:2px solid #cdcdcd;
+  width: 73.28vw;
+  border: 2px solid #cdcdcd;
 }
 
 .categoryProductBtn {
@@ -100,7 +100,7 @@
   font: normal normal normal 1.098vw/1.684vw Poppins;
   text-decoration: none;
   cursor: pointer;
-  box-shadow: 0 0.220vw 0.439vw #00000029;
+  box-shadow: 0 0.22vw 0.439vw #00000029;
   border: white;
 }
 .categoryBtn:focus {
@@ -117,7 +117,7 @@
   text-decoration: none;
   cursor: pointer;
   border: white;
-  box-shadow: 0 0.220vw 0.439vw #00000029;
+  box-shadow: 0 0.22vw 0.439vw #00000029;
 }
 .productBtn:focus {
   outline: none;
@@ -256,7 +256,7 @@
   height: 1.245vw;
   color: #adadad;
   cursor: pointer;
-  margin-top: 0.220vw;
+  margin-top: 0.22vw;
 }
 
 .quantityNo {
@@ -273,20 +273,20 @@
   color: #adadad;
   cursor: pointer;
   margin-left: 1.684vw;
-  margin-top: 0.220vw;
+  margin-top: 0.22vw;
 }
 
 .dressName {
-  width: 22.840vw;
+  width: 22.84vw;
   height: 1.537vw;
   font: normal normal normal 1.098vw/1.684vw Poppins;
   color: #8d8d8d;
-  margin-left: 4.540vw;
+  margin-left: 4.54vw;
 }
 
 .productStatus {
   display: flex;
-  width: 9.370vw;
+  width: 9.37vw;
   height: 1.537vw;
   margin-left: 1.391vw;
 }
@@ -296,7 +296,7 @@
   height: 1.245vw;
   color: #cdcdcd;
   cursor: pointer;
-  margin-top: 0.220vw;
+  margin-top: 0.22vw;
 }
 
 #checkSquare {
@@ -305,7 +305,7 @@
   color: #13c200;
   margin-left: 0.512vw;
   cursor: pointer;
-  margin-top: 0.220vw;
+  margin-top: 0.22vw;
 }
 
 .StatusAva {
@@ -322,11 +322,11 @@
   height: 1.318vw;
   margin-left: 6.662vw;
   cursor: pointer;
-  margin-top: 0.220vw;
+  margin-top: 0.22vw;
 }
 
 .endLine {
-  margin-top: 1.940vw;
+  margin-top: 1.94vw;
   margin-left: 37.592vw;
   width: 24.817vw;
   border: 0.073vw solid #cdcdcd;
@@ -343,15 +343,38 @@
   display: none;
 }
 
+.AdminBlogPopUp {
+  position: absolute;
+  -webkit-position: sticky;
+  width: 100vw;
+  height: 142vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  z-index: 1046;
+  display: none;
+}
+
 .SmallUp {
   width: 79.649vw;
-  height: 48.682vw;
+  height: 30%;
   margin-top: 7.321vw;
   margin-left: 10.176vw;
   background-color: white;
   z-index: 1046;
   display: grid;
-  grid-template-rows: 4.100vw 22.035vw;
+  grid-template-rows: 4.1vw 22.035vw;
+  border-radius: 1.464vw;
+}
+
+.SmallBlogUp {
+  width: 79.649vw;
+  height: 45%;
+  margin-top: 7.321vw;
+  margin-left: 10.176vw;
+  background-color: white;
+  z-index: 1046;
+  display: grid;
+  grid-template-rows: 4.1vw 22.035vw;
   border-radius: 1.464vw;
 }
 
@@ -382,8 +405,16 @@
 
 .detailFill {
   width: 72.182vw;
-  height: 19.034vw;
-  border: 0.073vw solid black;
+  height: 20.034vw;
+  /* border: 0.073vw solid black; */
+  margin-top: 3.001vw;
+  margin-left: 2.343vw;
+}
+
+.detailBlogFill {
+  width: 72.182vw;
+  height: 24.034vw;
+  /* border: 0.073vw solid black; */
   margin-top: 3.001vw;
   margin-left: 2.343vw;
 }
