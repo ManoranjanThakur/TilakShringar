@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-
 import './App.css';
 import 'semantic-ui-css/semantic.css'
 import Home from './Container/Pages/Home';
