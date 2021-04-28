@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import 'semantic-ui-css/semantic.css'
+
 import Home from './Container/Pages/Home';
 import { BrowserRouter as Router , Switch, Route} from 'react-router-dom';
 import Shop from './Container/Pages/Shop';
