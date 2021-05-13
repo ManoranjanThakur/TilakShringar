@@ -34,6 +34,7 @@ function App() {
     dispatch(updateCart());
   }, []);
 
+  
   return (
     <Router>
     <div className="App">
